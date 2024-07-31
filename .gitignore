@@ -1,3 +1,14 @@
+# Custome local files and dir.
+tmp
+temp
+
+# Hugo generated files
+docs/public
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode
+.vscode-test
+
 # Logs
 logs
 *.log
@@ -84,12 +95,12 @@ web_modules/
 .parcel-cache
 
 # Next.js build output
-.next
+.next/
 out
 
 # Nuxt.js build / generate output
-.nuxt
-dist
+.nuxt/
+dist/
 
 # Gatsby files
 .cache/
@@ -118,9 +129,6 @@ dist
 
 # TernJS port file
 .tern-port
-
-# Stores VSCode versions used for testing VSCode extensions
-.vscode-test
 
 # yarn v2
 .yarn/cache

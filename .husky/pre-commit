@@ -1,0 +1,25 @@
+# ./.husky/pre-commit
+#
+# Pre-commit hook script, updates dependencies,
+# runs linter, tests, and build before commiting.
+
+# IMPORTANT!!
+# This is NOT exactly a shell script. 
+# This IS a hook script run by Husky.
+# To avoid Husky errors, AVOID shell syntax in this file.
+
+# Install dependencies and update.
+pnpm install
+pnpm update
+
+# Run linter.
+pnpm run lint
+
+# Stage any changes made by the commands above.
+git add --all
+
+# Run test and enforce 100% coverage.
+pnpm run test:coverage
+
+# Test build the package in preperation for release.
+pnpm run build

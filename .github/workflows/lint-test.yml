@@ -1,0 +1,80 @@
+# ./github/workflows/lint-test.yml
+#
+# Per push, PR, or manual trigger, 
+# run Super-Linter and report coverage to Codecov.
+
+# Run all-around linting and testing per every push and PR.
+on:
+  push             : 
+  pull_request     : 
+  workflow_dispatch: 
+
+jobs:
+  run-super-linter:
+    name   : Run Super-Linter
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: read  # For checking out the code.
+      packages: read  # For installing pnpm and other packages.
+      statuses: write # For reporting GitHub Actions status checks.
+
+    steps:
+      - name: Checkout code
+        uses: 'actions/checkout@v4'
+        with:
+          # super-linter needs the full git history to get the
+          # list of files that changed across commits
+          fetch-depth: 0
+
+      - name: Run super-linter
+        uses: 'super-linter/super-linter@v6'
+        env : 
+          # For reporting GitHub Actions status checks
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  report-codecov:
+    name   : Report Codecov
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: read
+      packages: read
+
+    steps:
+      - name: Checkout code
+        uses: 'actions/checkout@v4'
+
+      # IMPORTANT!! when using pnpm,
+      # you MUST follow this EXACT order of:
+      # 1. Setup pnpm;
+      # 2. Install dependencies;
+      # 3. Setup Node.js;
+      # 4. Run tests.
+
+      - name: Install pnpm
+        uses: 'pnpm/action-setup@v4'
+        with:
+          version: 9.6.0
+      # WARNING!
+      # Do NOT use 'latest' as the version for pnpm.
+      # 'latest' may fall behind the actual latest stable release of pnpm.
+
+      - name: Install dependencies
+        run : pnpm install
+
+      - name: Set up Node.js 18
+        uses: 'actions/setup-node@v4'
+        with:
+          node-version: 18.x
+          cache       : pnpm
+
+      - name: Run tests
+        run : pnpm test:coverage
+
+      - name: Upload coverage reports to Codecov
+        uses: codecov/codecov-action@v4
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
+          slug : KemingHe/OSU
+          

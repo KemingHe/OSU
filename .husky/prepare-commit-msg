@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# ./.husky/prepare-commit-msg
+#
+# Husky integration with commitizen,
+# lets commitizen's CLI handle commit message generation.
+
+# Step 1. give script access to terminal (tty)
+# for interactive commit message generation.
+exec < /dev/tty 
+
+# Step 2. run commitizen w/out local installation,
+# fallback to doing nothing if fails.
+pnpm cz --hook || true
