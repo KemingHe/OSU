@@ -2,7 +2,7 @@
   "type": "module",
   "private": true,
   "name": "osu",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Unofficial, publicly available data about The Ohio State University.",
   "keywords": [],
   "homepage": "https://github.com/KemingHe/OSU",
@@ -53,6 +53,13 @@
   "engines": {
     "node": ">=18"
   },
-  "os": ["linux", "darwin", "win32"],
-  "cpu": ["x64", "arm64"]
+  "os": [
+    "linux",
+    "darwin",
+    "win32"
+  ],
+  "cpu": [
+    "x64",
+    "arm64"
+  ]
 }
