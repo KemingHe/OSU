@@ -16,10 +16,12 @@ export interface csv2TSOptions {
   // biome-ignore format: added alignment for clarity.
   inFilePath      : string;
   inFileCSVHeaders: string[];
+  inFileSchema: ZodSchema;
+  middleFunction?: (data: unknown[]) => unknown[];
   outFilePath: string;
   outFileHeader: string;
   outFileArrayName: string;
-  schema: ZodSchema;
+  outFileSchema: ZodSchema;
 }
 
 // Generic csv to ts array function definition. --------------------------------
@@ -29,21 +31,39 @@ export default async function csv2TS(options: csv2TSOptions): Promise<void> {
     const {
       inFilePath,
       inFileCSVHeaders,
+      inFileSchema,
+      middleFunction,
       outFilePath,
       outFileHeader,
       outFileArrayName,
-      schema,
+      outFileSchema,
     } = options;
 
     // Validate input file exists and is non-empty.
     await fileExistsNonEmpty(inFilePath);
 
     // Parse csv file.
-    const parsedData = await parseCSVFile({
+    let parsedData = await parseCSVFile({
       filePath: inFilePath,
       csvHeaders: inFileCSVHeaders,
-      schema,
+      schema: inFileSchema,
     });
+
+    // Apply middle transform function if provided.
+    if (middleFunction) {
+      if (!parsedData) {
+        throw new Error("Error: parsedData is resolved as 'undefined'.");
+      }
+      parsedData = middleFunction(parsedData);
+      if (!parsedData) {
+        throw new Error(
+          "Error: post-middleFunction pasedData is resolved as 'undefined'.",
+        );
+      }
+    }
+
+    // Validate transformed data against output schema.
+    parsedData = outFileSchema.array().parse(parsedData);
 
     // Write to ts file.
     await writeTSFile({
@@ -51,7 +71,7 @@ export default async function csv2TS(options: csv2TSOptions): Promise<void> {
       outFileHeader,
       outFileArrayName,
       data: parsedData,
-      schema,
+      schema: outFileSchema,
     });
   } catch (error) {
     console.error(`Error converting csv to TS array file: ${error}`);
@@ -151,15 +171,8 @@ export async function writeTSFile(options: writeTSFileOptions): Promise<void> {
   const validatedData = schema.array().parse(data);
 
   // Prepare out file content.
-  const arrayContent: string = validatedData
-    .map((item) => {
-      const keyValuePairs = Object.entries(item)
-        .map(([key, value]) => `${key}: ${JSON.stringify(value)}`)
-        .join(",\n    ");
-      return `  {\n    ${keyValuePairs}\n  }`;
-    })
-    .join(",\n");
-  const outFileContent = `${outFileHeader}\nconst ${outFileArrayName} = [\n${arrayContent}\n];\nexport default ${outFileArrayName};\n`;
+  const arrayContent: string = JSON.stringify(validatedData, null, 2);
+  const outFileContent = `${outFileHeader}\nconst ${outFileArrayName} = ${arrayContent};\nexport default ${outFileArrayName};\n`;
 
   // Write to out file.
   await fs.outputFile(resolvedOutFilePath, outFileContent);
