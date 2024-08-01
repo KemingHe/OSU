@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.0](https://github.com/KemingHe/OSU/compare/v0.3.0...v0.4.0) (2024-08-01)
+
+
+### Features
+
+* **csv2ts.ts:** extended generic csv 2 ts array util funtions ([7537250](https://github.com/KemingHe/OSU/commit/75372500acb1a3c268d50a34fbc3d1c92a3993b1))
+
 ## [0.3.0](https://github.com/KemingHe/OSU/compare/v0.2.0...v0.3.0) (2024-08-01)
 
 
