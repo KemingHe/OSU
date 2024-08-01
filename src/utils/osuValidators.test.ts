@@ -8,10 +8,10 @@ import { describe, expect, it } from "vitest";
 // Testing module imports.
 import {
   isBuckeyemail,
+  isNameDotNumber,
   isOSUEmail,
-  isOSUEmailOrBuckeyemail,
-  isOSUNameDotNumber,
-} from "@utils/osuValidators.js";
+  isOSUOrBuckeyemail,
+} from "@src/utils/osuValidators.js";
 
 // Utility interface and function for batch testing.
 interface BatchExpectationOptions {
@@ -37,7 +37,7 @@ function batchExpectation(options: BatchExpectationOptions): void {
 }
 
 // Test suite for OSU-related validators.
-describe("The isOSUNameDotNumber validator function", () => {
+describe("The isNameDotNumber validator function", () => {
   const validStrings: string[] =
     // biome-ignore format: added alignment for better readability.
     [
@@ -66,7 +66,7 @@ describe("The isOSUNameDotNumber validator function", () => {
   ];
 
   batchExpectation({
-    validator: isOSUNameDotNumber,
+    validator: isNameDotNumber,
     validStrings,
     invalidStrings,
   });
@@ -155,7 +155,7 @@ describe("The isBuckeyemail validator function", () => {
   });
 });
 
-describe("The isOSUEmailOrBuckeyemail validator function", () => {
+describe("The isOSUOrBuckeyemail validator function", () => {
   const validStrings: string[] = [
     "john.1@osu.edu",
     "alice.23@osu.edu",
@@ -192,7 +192,7 @@ describe("The isOSUEmailOrBuckeyemail validator function", () => {
   ];
 
   batchExpectation({
-    validator: isOSUEmailOrBuckeyemail,
+    validator: isOSUOrBuckeyemail,
     validStrings,
     invalidStrings,
   });

@@ -1,0 +1,38 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`"fileExistsNonEmpty" function > returns true if file from path exists and is non-empty 1`] = `undefined`;
+
+exports[`"fileExistsNonEmpty" function > throws an error if file from path does not exist 1`] = `[Error: ENOENT, no such file or directory '/home/keminghe/proj-school/OSU/nonExistentInFilePath.csv']`;
+
+exports[`"fileExistsNonEmpty" function > throws an error if file from path is empty 1`] = `[Error: File is empty: mockEmptyInFilePath.csv]`;
+
+exports[`"parseCSVFile" function > successfully returns full parsed data from csv file matching schema 1`] = `
+[
+  {
+    "affiliation": "Columbus, Academic/College, Awareness/Activism, Special Interest, Technology",
+    "name": "The Alliance of Students with Disabilities for Inclusion, Networking, and Transition Opportunities in STEM at The Ohio State University",
+    "purposeStatement": "The Alliance of Students with Disabilities for Inclusion, Networking, and Transition Opportunities in STEM at The Ohio State University (TAP...",
+  },
+  {
+    "affiliation": "Columbus, Awareness/Activism, Community Service/Service Learning, Special Interest,",
+    "name": "1 Day For The K.I.A., Inc.",
+    "purposeStatement": "1 Day for the K.I.A.’s purpose is to raise awareness and commemorate fallen military service members. 1 Day for the K.I.A. accomplishes our ...",
+  },
+]
+`;
+
+exports[`"parseCSVFile" function > throws an error if csv file data does not match schema 1`] = `
+[Error: Error parsing CSV file: [
+  {
+    "code": "invalid_type",
+    "expected": "number",
+    "received": "string",
+    "path": [
+      "name"
+    ],
+    "message": "Expected number, received string"
+  }
+]]
+`;
+
+exports[`"parseCSVFile" function > throws an error if there is an error reading the file 1`] = `[Error: Error parsing CSV file: Error: ENOENT, no such file or directory '/home/keminghe/proj-school/OSU/nonExistentInFilePath.csv']`;

@@ -18,7 +18,7 @@ export default defineConfig({
     setupFiles: ["vitest.setup.ts"],
 
     // Global test match pattern.
-    include: ["src/**/*.test.ts"],
+    include: ["src/**/*.test.ts", "scripts/**/*.test.ts"],
 
     alias:
       // biome-ignore format: added alignment for better readability.
