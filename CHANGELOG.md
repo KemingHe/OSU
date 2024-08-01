@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.0](https://github.com/KemingHe/OSU/compare/v0.2.0...v0.3.0) (2024-08-01)
+
+
+### Features
+
+* **scripts dir:** fully implemented and tested csv to ts auto generation scripts ([679bcb4](https://github.com/KemingHe/OSU/commit/679bcb4212a04b1dc22dbfa69186881a3f9d002f))
+
 ## 0.2.0 (2024-07-31)
 
 
