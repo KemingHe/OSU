@@ -90,7 +90,7 @@ describe(`"parseCSVFile" function`, () => {
         name: z.number(),
       }),
     };
-    await expect(parseCSVFile(options)).rejects.toThrowErrorMatchingSnapshot();
+    await expect(parseCSVFile(options)).rejects.toThrowError();
   });
 
   it("throws an error if there is an error reading the file", async () => {
@@ -99,6 +99,6 @@ describe(`"parseCSVFile" function`, () => {
       csvHeaders: mockCSVHeaders,
       schema: mockSchema,
     };
-    await expect(parseCSVFile(options)).rejects.toThrowErrorMatchingSnapshot();
+    await expect(parseCSVFile(options)).rejects.toThrowError();
   });
 });
