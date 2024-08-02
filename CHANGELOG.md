@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.9](https://github.com/KemingHe/OSU/compare/v1.0.8...v1.0.9) (2024-08-02)
+
+
+### Bug Fixes
+
+* **src/index.ts:** entrypoint now correctly exports student org and major types ([d6c958a](https://github.com/KemingHe/OSU/commit/d6c958ab47a6265acca06ec6e57fa61bcbf7e88b))
+
 ## [1.0.8](https://github.com/KemingHe/OSU/compare/v1.0.7...v1.0.8) (2024-08-02)
 
 
