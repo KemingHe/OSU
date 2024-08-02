@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.0.0](https://github.com/KemingHe/OSU/compare/v0.4.0...v1.0.0) (2024-08-02)
+
+
+### ⚠ BREAKING CHANGES
+
+* **tsup.config.ts:** to unify exports, removed `osu` from default export, added `osu` back as a name
+export, now must use `import { osu } from "@keminghe/osu";` to use the osu namespace and subsequent
+namespaces, classes, and constants.
+
+### Features
+
+* **tsup.config.ts:** adopted tsup as bundler, enforced uniform named exports ([ef24365](https://github.com/KemingHe/OSU/commit/ef2436513c390c9cb203a2f0bd5cdfbe85f34e34))
+
 ## [0.4.0](https://github.com/KemingHe/OSU/compare/v0.3.0...v0.4.0) (2024-08-01)
 
 
