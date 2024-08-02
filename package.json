@@ -1,6 +1,6 @@
 {
   "name": "@keminghe/osu",
-  "version": "1.0.6",
+  "version": "1.0.10",
   "description": "Unofficial, publicly available data about The Ohio State University.",
   "keywords": [
     "data",
@@ -16,9 +16,15 @@
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/KemingHe/OSU.git"
+    "url": "git+https://github.com/KemingHe/OSU.git"
   },
   "homepage": "https://github.com/KemingHe/OSU",
   "bugs": {

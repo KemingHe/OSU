@@ -1,5 +1,33 @@
 # Changelog
 
+## [1.0.10](https://github.com/KemingHe/OSU/compare/v1.0.9...v1.0.10) (2024-08-02)
+
+
+### Bug Fixes
+
+* **publish-npm.yml:** added correct token and command to auth to npm ([9e15609](https://github.com/KemingHe/OSU/commit/9e15609905f204a1cb232e897db723bd718faa15)), closes [#5](https://github.com/KemingHe/OSU/issues/5)
+
+## [1.0.9](https://github.com/KemingHe/OSU/compare/v1.0.8...v1.0.9) (2024-08-02)
+
+
+### Bug Fixes
+
+* **src/index.ts:** entrypoint now correctly exports student org and major types ([d6c958a](https://github.com/KemingHe/OSU/commit/d6c958ab47a6265acca06ec6e57fa61bcbf7e88b))
+
+## [1.0.8](https://github.com/KemingHe/OSU/compare/v1.0.7...v1.0.8) (2024-08-02)
+
+
+### Bug Fixes
+
+* **package.json:** explicitly defined `files` to only publish necessary files ([6074802](https://github.com/KemingHe/OSU/commit/6074802e5c622a1b0340c747da02c6aff8adc79b))
+
+## [1.0.7](https://github.com/KemingHe/OSU/compare/v1.0.6...v1.0.7) (2024-08-02)
+
+
+### Bug Fixes
+
+* **package.json:** npm pkg fixed package.json, added `git+` for repo url ([077b3d4](https://github.com/KemingHe/OSU/commit/077b3d40f755722b5fff04daa077ed929e20fea6))
+
 ## [1.0.6](https://github.com/KemingHe/OSU/compare/v1.0.5...v1.0.6) (2024-08-02)
 
 ## [1.0.5](https://github.com/KemingHe/OSU/compare/v1.0.4...v1.0.5) (2024-08-02)

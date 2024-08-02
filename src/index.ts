@@ -2,8 +2,12 @@
 //
 // OSU package entrypoint, for exporting all OSU-related classes and utilities.
 
-// Local osu namespace and utilities imports.
-import osu from "@src/osu";
+// Local osu namespace imports.
+import { osu } from "@src/osu";
+
+// Local OSU-related type imports.
+
+// Local utils and contant imports.
 import {
   isBuckeyemail,
   isNameDotNumber,
@@ -22,3 +26,9 @@ export {
   // OSU namespace exports.
   osu,
 };
+
+// IMPORTANT!!
+// Remember to separately export all types and interfaces from main namespace,
+// such that end-users could import them directly from the package.
+export type StudentOrg = osu.StudentOrg;
+export type Major = osu.undergrad.Major;
