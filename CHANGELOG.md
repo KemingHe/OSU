@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.8](https://github.com/KemingHe/OSU/compare/v1.0.7...v1.0.8) (2024-08-02)
+
+
+### Bug Fixes
+
+* **package.json:** explicitly defined `files` to only publish necessary files ([6074802](https://github.com/KemingHe/OSU/commit/6074802e5c622a1b0340c747da02c6aff8adc79b))
+
 ## [1.0.7](https://github.com/KemingHe/OSU/compare/v1.0.6...v1.0.7) (2024-08-02)
 
 
