@@ -2,10 +2,6 @@
 
 exports[`"fileExistsNonEmpty" function > returns true if file from path exists and is non-empty 1`] = `undefined`;
 
-exports[`"fileExistsNonEmpty" function > throws an error if file from path does not exist 1`] = `[Error: ENOENT, no such file or directory '/home/keminghe/proj-school/OSU/nonExistentInFilePath.csv']`;
-
-exports[`"fileExistsNonEmpty" function > throws an error if file from path is empty 1`] = `[Error: File is empty: mockEmptyInFilePath.csv]`;
-
 exports[`"parseCSVFile" function > successfully returns full parsed data from csv file matching schema 1`] = `
 [
   {

@@ -8,7 +8,7 @@
 import { defineConfig } from "tsup";
 
 export const packageBanner: string = `/*
- * @keminghe/osu: Unofficial data on The Ohio State University.
+ * @keminghe/osu: Unofficial data about The Ohio State University.
  * Not affiliated with or endorsed by OSU. Usage indicates agreement
  * with the MIT license. More info at https://mit-license.org/
  */

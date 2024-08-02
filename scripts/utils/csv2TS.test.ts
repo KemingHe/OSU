@@ -55,16 +55,20 @@ describe(`"fileExistsNonEmpty" function`, () => {
     await expect(fileExistsNonEmpty(mockInFilePath)).resolves.toMatchSnapshot();
   });
 
+  // IMPORTANT!!
+  // For bad file path tests, use `toThrowError()`
+  // instead of `toThrowErrorMatchingSnapshot()`,
+  // in order to pass GitHub Actions CI tests (different path resolution).
   it("throws an error if file from path does not exist", async () => {
     await expect(
       fileExistsNonEmpty(mockNonExistentInFilePath),
-    ).rejects.toThrowErrorMatchingSnapshot();
+    ).rejects.toThrowError();
   });
 
   it("throws an error if file from path is empty", async () => {
     await expect(
       fileExistsNonEmpty(mockEmptyInFilePath),
-    ).rejects.toThrowErrorMatchingSnapshot();
+    ).rejects.toThrowError();
   });
 });
 
