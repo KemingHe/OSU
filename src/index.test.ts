@@ -9,7 +9,7 @@ import { describe, expect, it } from "vitest";
 import * as entrypoint from "@src/index";
 
 // Local namespace and utiles import.
-import osu from "@src/osu";
+import { osu } from "@src/osu";
 import {
   isBuckeyemail,
   isNameDotNumber,
