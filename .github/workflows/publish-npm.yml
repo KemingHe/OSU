@@ -55,8 +55,11 @@ jobs:
       - name: Pre-publish final build.
         run : pnpm build
 
+      # IMPORTANT!!
+      # Use `npm set ...` with classic automation token to auth to NPM.
       - name: Publish to NPM
-        run : npm publish --access public
-        env :
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_PUBLISH_TOKEN }}
+        run : |
+          set -e;
+          npm set "//registry.npmjs.org/:_authToken" ${{ secrets.NPM_PUBLISH_TOKEN }};
+          npm publish --access public;
           
