@@ -1,0 +1,51 @@
+# ./github/workflows/publish-npm
+#
+# Per manual GitHub release, auto publish the package to npm.
+name: Publish NPM
+
+on:
+  release:
+    types:
+      - published
+
+jobs:
+  publish-npm:
+    name   : Publish to NPM
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: read
+
+    # Restrictly only one publishing job per workflow run.
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
+
+    steps:
+      - name: Checkout code
+        uses: 'actions/checkout@v4'
+
+      - name: Install pnpm
+        uses: 'pnpm/action-setup@v4'
+        with:
+          version: ${{ vars.DEFAULT_PNPM_FULL_VERSION }}
+
+      - name: Install dependencies
+        run : pnpm install
+
+      - name: Set up Node.js ${{ vars.DEFAULT_NODE_MAJOR_VERSION }}
+        uses: 'actions/setup-node@v4'
+        with:
+          node-version: ${{ vars.DEFAULT_NODE_MAJOR_VERSION }}.x
+          cache       : pnpm
+
+      - name: Pre-publish final testing.
+        run : pnpm test:coverage
+
+      - name: Pre-publish final build.
+        run : pnpm build
+
+      - name: Publish to NPM
+        run : pnpm publish --access public
+        env :
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_PUBLISH_TOKEN }}
+          
