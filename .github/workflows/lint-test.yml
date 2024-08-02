@@ -69,7 +69,7 @@ jobs:
       # 'latest' may fall behind the actual latest stable release of pnpm.
 
       - name: Install dependencies
-        run : pnpm install
+        run : pnpm install --frozen-lockfile
 
       - name: Set up Node.js ${{ vars.DEFAULT_NODE_MAJOR_VERSION }}
         uses: 'actions/setup-node@v4'

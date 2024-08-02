@@ -1,5 +1,7 @@
 # Changelog
 
+## [1.0.6](https://github.com/KemingHe/OSU/compare/v1.0.5...v1.0.6) (2024-08-02)
+
 ## [1.0.5](https://github.com/KemingHe/OSU/compare/v1.0.4...v1.0.5) (2024-08-02)
 
 ## [1.0.4](https://github.com/KemingHe/OSU/compare/v1.0.3...v1.0.4) (2024-08-02)
