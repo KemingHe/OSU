@@ -8,7 +8,7 @@ const osuEmailRegExp: RegExp = /^[a-z]+\.[1-9]\d*@osu\.edu$/;
 const buckeyemailRegExp: RegExp = /^[a-z]+\.[1-9]\d*@buckeyemail\.osu\.edu$/;
 
 // OSU-related validators.
-export function isOSUNameDotNumber(nameDotNumber: string): boolean {
+export function isNameDotNumber(nameDotNumber: string): boolean {
   return osuNameDotNumberRegExp.test(nameDotNumber);
 }
 
@@ -20,6 +20,6 @@ export function isBuckeyemail(buckeyemail: string): boolean {
   return buckeyemailRegExp.test(buckeyemail);
 }
 
-export function isOSUEmailOrBuckeyemail(email: string): boolean {
+export function isOSUOrBuckeyemail(email: string): boolean {
   return isOSUEmail(email) || isBuckeyemail(email);
 }

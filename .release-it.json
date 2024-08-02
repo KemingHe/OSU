@@ -19,7 +19,7 @@
     "tagName": "v${version}",
     "requireCleanWorkingDir": true,
     "commit": true,
-    "commitMessage": "chore(release): v${version} via release-it (auto, ci env)",
+    "commitMessage": "chore(changelog): v${version} via release-it (auto, ci env)",
     "commitArgs": ["--no-verify"],
     "push": false
   },
