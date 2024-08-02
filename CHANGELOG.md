@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.10](https://github.com/KemingHe/OSU/compare/v1.0.9...v1.0.10) (2024-08-02)
+
+
+### Bug Fixes
+
+* **publish-npm.yml:** added correct token and command to auth to npm ([9e15609](https://github.com/KemingHe/OSU/commit/9e15609905f204a1cb232e897db723bd718faa15)), closes [#5](https://github.com/KemingHe/OSU/issues/5)
+
 ## [1.0.9](https://github.com/KemingHe/OSU/compare/v1.0.8...v1.0.9) (2024-08-02)
 
 
