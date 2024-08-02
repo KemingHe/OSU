@@ -1,6 +1,6 @@
 {
   "name": "@keminghe/osu",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "Unofficial, publicly available data about The Ohio State University.",
   "keywords": [
     "data",
@@ -68,7 +68,7 @@
     "zod": "^3.23.8"
   },
   "engines": {
-    "node": ">=18"
+    "node": ">=14"
   },
   "os": [
     "linux",
