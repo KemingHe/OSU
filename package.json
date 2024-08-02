@@ -16,6 +16,12 @@
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+    ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/KemingHe/OSU.git"
