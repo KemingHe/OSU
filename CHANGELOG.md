@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.7](https://github.com/KemingHe/OSU/compare/v1.0.6...v1.0.7) (2024-08-02)
+
+
+### Bug Fixes
+
+* **package.json:** npm pkg fixed package.json, added `git+` for repo url ([077b3d4](https://github.com/KemingHe/OSU/commit/077b3d40f755722b5fff04daa077ed929e20fea6))
+
 ## [1.0.6](https://github.com/KemingHe/OSU/compare/v1.0.5...v1.0.6) (2024-08-02)
 
 ## [1.0.5](https://github.com/KemingHe/OSU/compare/v1.0.4...v1.0.5) (2024-08-02)
