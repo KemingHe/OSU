@@ -16,13 +16,24 @@ jobs:
     permissions:
       contents: read
 
-    # Restrictly only one publishing job per workflow run.
+    # Restrict only one publishing job per workflow run.
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
 
     steps:
       - name: Checkout code
         uses: 'actions/checkout@v4'
+        with:
+          fetch-depth: 0
+
+      # Attach HEAD to main to avoid detached HEAD state.
+      # And to ensure publishing from main branch only.
+      # Added hard reset to ensure the branch is clean.
+      - name: Attach HEAD to main branch
+        run: |
+          set -e;
+          git checkout main;
+          git reset --hard;
 
       - name: Install pnpm
         uses: 'pnpm/action-setup@v4'
@@ -30,7 +41,7 @@ jobs:
           version: ${{ vars.DEFAULT_PNPM_FULL_VERSION }}
 
       - name: Install dependencies
-        run : pnpm install
+        run : pnpm install --frozen-lockfile
 
       - name: Set up Node.js ${{ vars.DEFAULT_NODE_MAJOR_VERSION }}
         uses: 'actions/setup-node@v4'
