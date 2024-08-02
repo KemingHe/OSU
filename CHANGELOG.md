@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/KemingHe/OSU/compare/v1.0.0...v1.0.1) (2024-08-02)
+
+
+### Bug Fixes
+
+* **scripts/utils/csv2ts.test.ts:** removed snapshot test to accommodate diff test env file paths ([f461757](https://github.com/KemingHe/OSU/commit/f4617575b4292c5c751830cb3ab912d75938e825))
+
 ## [1.0.0](https://github.com/KemingHe/OSU/compare/v0.4.0...v1.0.0) (2024-08-02)
 
 
