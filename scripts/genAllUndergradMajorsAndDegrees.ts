@@ -9,7 +9,7 @@ import { type ZodSchema, z } from "zod";
 import csv2TS, {
   type csv2TSOptions,
   DEFAULT_HEADER,
-} from "@scripts/utils/csv2TS.js";
+} from "@scripts/utils/csv2TS";
 
 export const rawUndergradMajor: ZodSchema = z.object(
   // biome-ignore format: added alignment for clarity.

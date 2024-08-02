@@ -2,18 +2,20 @@
   "name": "@keminghe/osu",
   "version": "0.4.0",
   "description": "Unofficial, publicly available data about The Ohio State University.",
-  "keywords": [],
-  "main": "dist/cjs/index.js",
-  "module": "dist/esm/index.js",
-  "types": "dist/types/index.d.ts",
-  "files": [
-    "dist/cjs",
-    "dist/esm",
-    "dist/types"
+  "keywords": [
+    "data",
+    "public",
+    "unofficial",
+    "ohio-state",
+    "majors",
+    "college",
+    "university",
+    "students",
+    "organizations"
   ],
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/KemingHe/OSU.git"
@@ -34,17 +36,15 @@
   "scripts": {
     "prepare": "husky || true",
     "preinstall": "echo 'Currently using pnpm@9.6.0, remember to update: [ package.json and .github/workflows ].'",
-    "lint": "biome ci .",
+    "lint": "biome ci . && tsc",
     "lint:fix": "biome check --write .",
     "test": "NODE_ENV=test vitest",
     "test:coverage": "NODE_ENV=test vitest --coverage.enabled --watch=false",
     "test:bench": "NODE_ENV=test vitest bench --outputFile.json=benchmark.json",
     "test:bench:compare": "NODE_ENV=test vitest bench --compare benchmark.json",
-    "build:cjs": "tsc --project tsconfig.cjs.json",
-    "build:esm": "set -e; tsc --project tsconfig.esm.json; tsc-alias -p tsconfig.esm.json;",
     "prebuild": "tsx scripts/generate.ts",
-    "build": "set -e; rm -rf ./dist; pnpm run build:cjs; pnpm run build:esm;",
-    "postbuild": "echo 'Build complete: src/ -> dist/cjs, dist/esm, and dist/types.'"
+    "build": "tsup",
+    "postbuild": "echo 'Build complete: src/ -> dist/'"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.8.3",
@@ -60,9 +60,8 @@
     "husky": "^9.1.4",
     "mock-fs": "^5.2.0",
     "release-it": "^17.6.0",
-    "ts-node": "^10.9.2",
-    "tsc-alias": "^1.8.10",
-    "tsx": "^4.16.4",
+    "tsup": "^8.2.3",
+    "tsx": "^4.16.5",
     "typescript": "^5.5.4",
     "vite-tsconfig-paths": "^4.3.2",
     "vitest": "^2.0.5",

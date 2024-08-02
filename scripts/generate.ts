@@ -3,8 +3,8 @@
 // Main function to run all generation scripts.
 
 // Local generation function imports.
-import genAllStudentOrgs from "@scripts/genAllStudentOrgs.js";
-import genAllUndergradMajorsAndDegrees from "@scripts/genAllUndergradMajorsAndDegrees.js";
+import genAllStudentOrgs from "@scripts/genAllStudentOrgs";
+import genAllUndergradMajorsAndDegrees from "@scripts/genAllUndergradMajorsAndDegrees";
 
 export default async function main(): Promise<void> {
   await genAllStudentOrgs();

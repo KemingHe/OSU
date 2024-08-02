@@ -11,7 +11,7 @@ import {
   isNameDotNumber,
   isOSUEmail,
   isOSUOrBuckeyemail,
-} from "@src/utils/osuValidators.js";
+} from "@src/utils/osuValidators";
 
 // Utility interface and function for batch testing.
 interface BatchExpectationOptions {

@@ -12,7 +12,7 @@ import {
   fileExistsNonEmpty,
   parseCSVFile,
   type parseCSVFileOptions,
-} from "@scripts/utils/csv2TS.js";
+} from "@scripts/utils/csv2TS";
 
 // Mock file path and data for the utils test suite. ---------------------------
 const mockNonExistentInFilePath: string = "nonExistentInFilePath.csv";

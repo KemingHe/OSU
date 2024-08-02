@@ -6,21 +6,21 @@
 import { describe, expect, it } from "vitest";
 
 // Testing module imports.
-import * as entrypoint from "@src/index.js";
+import * as entrypoint from "@src/index";
 
 // Local namespace and utiles import.
-import osu from "@src/osu.js";
+import osu from "@src/osu";
 import {
   isBuckeyemail,
   isNameDotNumber,
   isOSUEmail,
   isOSUOrBuckeyemail,
-} from "@src/utils/osuValidators.js";
+} from "@src/utils/osuValidators";
 
 // Entrypoint integration test suite.
 describe("The OSU package entrypoint", () => {
   it("exports the correct OSU namespace", () => {
-    expect(entrypoint.default).toStrictEqual(osu);
+    expect(entrypoint.osu).toStrictEqual(osu);
   });
 
   it("exports the isNameDotNumber validator function", () => {
