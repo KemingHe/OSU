@@ -13,23 +13,6 @@ export namespace osu {
   export namespace undergrad {
 
     /**
-     * Represents an undergraduate major.
-     * 
-     * @typedef {Object} osu.undergrad.Major
-     * 
-     * @property {string} major - The name of the major.
-     * @property {string|null} degree - The degree associated with the major, or null if not applicable.
-     * @property {string} campus - The campus where the major is offered.
-     * @property {string} college - The college that offers the major.
-     */
-    export interface Major {
-      major  : string;
-      degree : string | null;
-      campus : string;
-      college: string;
-    }
-
-    /**
      * A list of all undergraduate majors and degrees.
      * 
      * @type {osu.undergrad.Major[]}
@@ -38,23 +21,8 @@ export namespace osu {
      */
     export const majors: Major[] = allUndergradMajorsAndDegrees;
   }
-  // ---------------------------------------------------------------------------
-
-  /**
-   * Represents a student organization.
-   * 
-   * @typedef {Object} osu.StudentOrg
-   * 
-   * @property {string} name - The name of the student organization.
-   * @property {string} purposeStatement - A paragraph about the organization's purpose.
-   * @property {string[]} affiliation - Includes campus, category, mission, etc.
-   */
-  export interface StudentOrg {
-    name            : string;
-    purposeStatement: string;
-    affiliation     : string[];
-  }
-
+  
+  // OSU Student Organizations array. ------------------------------------------
   /**
    * A list of all student organizations.
    * 
@@ -63,4 +31,37 @@ export namespace osu {
    * @memberof osu
    */
   export const studentOrgs: StudentOrg[] = allStudentOrgs;
+}
+
+// OSU-related types. ----------------------------------------------------------
+/**
+ * Represents an undergraduate major.
+ * 
+ * @typedef {Object} Major
+ * 
+ * @property {string} major - The name of the major.
+ * @property {string|null} degree - The degree associated with the major, or null if not applicable.
+ * @property {string} campus - The campus where the major is offered.
+ * @property {string} college - The college that offers the major.
+ */
+export interface Major {
+  major  : string;
+  degree : string | null;
+  campus : string;
+  college: string;
+}
+
+/**
+ * Represents a student organization.
+ * 
+ * @typedef {Object} StudentOrg
+ * 
+ * @property {string} name - The name of the student organization.
+ * @property {string} purposeStatement - A paragraph about the organization's purpose.
+ * @property {string[]} affiliation - Includes campus, category, mission, etc.
+ */
+ export interface StudentOrg {
+  name            : string;
+  purposeStatement: string;
+  affiliation     : string[];
 }

@@ -48,6 +48,9 @@ jobs:
           - ${{ vars.DEFAULT_NODE_MAJOR_VERSION }}.x
           - 20.x
           - 22.x
+    # IMPORTANT!!
+    # Devdependencies requires node>=18.
+    # Do NOT use node<18 for the matrix.
 
     steps:
       - name: Checkout code
