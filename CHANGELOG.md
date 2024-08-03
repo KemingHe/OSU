@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/KemingHe/OSU/compare/v1.0.10...v1.1.0) (2024-08-03)
+
+
+### Features
+
+* **osuvalidators.ts:** added support for hyphened name dot number ([2f82508](https://github.com/KemingHe/OSU/commit/2f82508352367d19df2ff7c4c108d31fd1efac62)), closes [#7](https://github.com/KemingHe/OSU/issues/7) [#8](https://github.com/KemingHe/OSU/issues/8)
+
 ## [1.0.10](https://github.com/KemingHe/OSU/compare/v1.0.9...v1.0.10) (2024-08-02)
 
 

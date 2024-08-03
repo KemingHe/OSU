@@ -6,19 +6,20 @@
  * Regular expression for validating OSU name.number format.
  * @type {RegExp}
  */
-const osuNameDotNumberRegExp: RegExp = /^[a-z]+\.[1-9]\d*$/;
+const osuNameDotNumberRegExp: RegExp = /^[a-z]+(-[a-z]+)*\.[1-9]\d*$/;
 
 /**
  * Regular expression for validating OSU email addresses.
  * @type {RegExp}
  */
-const osuEmailRegExp: RegExp = /^[a-z]+\.[1-9]\d*@osu\.edu$/;
+const osuEmailRegExp: RegExp = /^[a-z]+(-[a-z]+)*\.[1-9]\d*@osu\.edu$/;
 
 /**
  * Regular expression for validating Buckeyemail addresses.
  * @type {RegExp}
  */
-const buckeyemailRegExp: RegExp = /^[a-z]+\.[1-9]\d*@buckeyemail\.osu\.edu$/;
+const buckeyemailRegExp: RegExp =
+  /^[a-z]+(-[a-z]+)*\.[1-9]\d*@buckeyemail\.osu\.edu$/;
 
 /**
  * Validates if the input string is in the OSU name.number format.
