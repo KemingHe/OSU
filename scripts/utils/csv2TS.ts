@@ -12,16 +12,16 @@ import path from "node:path";
 import csv from "csv-parser";
 import fs from "fs-extra";
 
+// biome-ignore format: added alignment for clarity.
 export interface csv2TSOptions {
-  // biome-ignore format: added alignment for clarity.
-  inFilePath      : string;
-  inFileCSVHeaders: string[];
-  inFileSchema: ZodSchema;
-  middleFunction?: (data: unknown[]) => unknown[];
-  outFilePath: string;
-  outFileHeader: string;
-  outFileArrayName: string;
-  outFileSchema: ZodSchema;
+  inFilePath       : string;
+  inFileCSVHeaders : string[];
+  inFileSchema     : ZodSchema;
+  middleFunction  ?: (data: unknown[]) => unknown[];
+  outFilePath      : string;
+  outFileHeader    : string;
+  outFileFooter    : string;
+  outFileSchema    : ZodSchema;
 }
 
 // Generic csv to ts array function definition. --------------------------------
@@ -35,7 +35,7 @@ export default async function csv2TS(options: csv2TSOptions): Promise<void> {
       middleFunction,
       outFilePath,
       outFileHeader,
-      outFileArrayName,
+      outFileFooter,
       outFileSchema,
     } = options;
 
@@ -43,11 +43,14 @@ export default async function csv2TS(options: csv2TSOptions): Promise<void> {
     await fileExistsNonEmpty(inFilePath);
 
     // Parse csv file.
-    let parsedData = await parseCSVFile({
-      filePath: inFilePath,
-      csvHeaders: inFileCSVHeaders,
-      schema: inFileSchema,
-    });
+    let parsedData = await parseCSVFile(
+      // biome-ignore format: added alignment for clarity.
+      {
+        filePath  : inFilePath,
+        csvHeaders: inFileCSVHeaders,
+        schema    : inFileSchema,
+    },
+    );
 
     // Apply middle transform function if provided.
     if (middleFunction) {
@@ -66,13 +69,16 @@ export default async function csv2TS(options: csv2TSOptions): Promise<void> {
     parsedData = outFileSchema.array().parse(parsedData);
 
     // Write to ts file.
-    await writeTSFile({
-      outFilePath,
-      outFileHeader,
-      outFileArrayName,
-      data: parsedData,
-      schema: outFileSchema,
-    });
+    await writeTSFile(
+      // biome-ignore format: added alignment for clarity.
+      {
+        filePath  : outFilePath,
+        fileHeader: outFileHeader,
+        fileFooter: outFileFooter,
+        data      : parsedData,
+        schema    : outFileSchema,
+      },
+    );
   } catch (error) {
     console.error(`Error converting csv to TS array file: ${error}`);
   }
@@ -95,10 +101,11 @@ export async function fileExistsNonEmpty(filePath: string): Promise<void> {
   // Resovles to void (undefined) if file exists and is non-empty.
 }
 
+// biome-ignore format: added alignment for clarity.
 export interface parseCSVFileOptions {
-  filePath: string;
+  filePath  : string;
   csvHeaders: string[];
-  schema: ZodSchema;
+  schema    : ZodSchema;
 }
 
 /**
@@ -142,15 +149,13 @@ export async function parseCSVFile(
   }
 }
 
-export const DEFAULT_HEADER =
-  "// This is a auto-generated file. For changes, see @scripts/generate.ts.";
-
+// biome-ignore format: added alignment for clarity.
 export interface writeTSFileOptions {
-  outFilePath: string;
-  outFileHeader: string;
-  outFileArrayName: string;
-  data: unknown[];
-  schema: ZodSchema;
+  filePath  : string;
+  fileHeader: string;
+  fileFooter: string;
+  data      : unknown[];
+  schema    : ZodSchema;
 }
 
 /**
@@ -161,19 +166,18 @@ export interface writeTSFileOptions {
  */
 export async function writeTSFile(options: writeTSFileOptions): Promise<void> {
   // Destructure options.
-  const { outFilePath, outFileHeader, outFileArrayName, data, schema } =
-    options;
+  const { filePath, fileHeader, fileFooter, data, schema } = options;
 
   // Resolve out file path.
-  const resolvedOutFilePath: string = path.resolve(outFilePath);
+  const resolvedFilePath: string = path.resolve(filePath);
 
   // Validate data against schema.
   const validatedData = schema.array().parse(data);
 
   // Prepare out file content.
   const arrayContent: string = JSON.stringify(validatedData, null, 2);
-  const outFileContent = `${outFileHeader}\nconst ${outFileArrayName} = ${arrayContent};\nexport default ${outFileArrayName};\n`;
+  const fileContent = `${fileHeader}${arrayContent};\n${fileFooter}`;
 
   // Write to out file.
-  await fs.outputFile(resolvedOutFilePath, outFileContent);
+  await fs.outputFile(resolvedFilePath, fileContent);
 }
