@@ -16,6 +16,7 @@
   },
   "git": {
     "tag": true,
+    "tagArgs": ["-s"],
     "tagName": "v${version}",
     "requireCleanWorkingDir": true,
     "commit": true,
