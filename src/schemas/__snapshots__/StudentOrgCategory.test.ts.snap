@@ -1,0 +1,72 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`The StudentOrgCategorySchema zod schema > matches the snapshot 1`] = `
+ZodEnum {
+  "_def": {
+    "typeName": "ZodEnum",
+    "values": [
+      "Academic/College",
+      "Awareness/Activism",
+      "Community Service/Service Learning",
+      "Creative and Performing Arts",
+      "Ethnic/Cultural",
+      "Governance Organizations",
+      "Honoraries/Honor Societies",
+      "Media, Journalism, and Creative Writing",
+      "Religious/Spiritual",
+      "Social Fraternities/Sororities",
+      "Special Interest",
+      "Sports and Recreation",
+      "Technology",
+      "Graduate",
+      "Professional",
+      "Undergraduate",
+    ],
+  },
+  "and": [Function],
+  "array": [Function],
+  "brand": [Function],
+  "catch": [Function],
+  "default": [Function],
+  "describe": [Function],
+  "isNullable": [Function],
+  "isOptional": [Function],
+  "nullable": [Function],
+  "nullish": [Function],
+  "optional": [Function],
+  "or": [Function],
+  "parse": [Function],
+  "parseAsync": [Function],
+  "pipe": [Function],
+  "promise": [Function],
+  "readonly": [Function],
+  "refine": [Function],
+  "refinement": [Function],
+  "safeParse": [Function],
+  "safeParseAsync": [Function],
+  "spa": [Function],
+  "superRefine": [Function],
+  "transform": [Function],
+}
+`;
+
+exports[`The StudentOrgCategoryTuple constant > matches the snapshot 1`] = `
+[
+  "Academic/College",
+  "Awareness/Activism",
+  "Community Service/Service Learning",
+  "Creative and Performing Arts",
+  "Ethnic/Cultural",
+  "Governance Organizations",
+  "Honoraries/Honor Societies",
+  "Media, Journalism, and Creative Writing",
+  "Religious/Spiritual",
+  "Social Fraternities/Sororities",
+  "Special Interest",
+  "Sports and Recreation",
+  "Technology",
+  "Graduate",
+  "Professional",
+  "Undergraduate",
+]
+`;

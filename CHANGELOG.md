@@ -1,5 +1,20 @@
 # Changelog
 
+## [2.0.1](https://github.com/KemingHe/OSU/compare/v2.0.0...v2.0.1) (2024-08-29)
+
+## [2.0.0](https://github.com/KemingHe/OSU/compare/v1.1.1...v2.0.0) (2024-08-29)
+
+
+### ⚠ BREAKING CHANGES
+
+* **schemas/:** * renamed isOSUEmail to isOSUDotEduEmail for clarity * renamed isNameDotNumber to
+isNameDotNum for brivety * completely removed the osu namespace and sub-spaces in favor of importing
+getResource functions to simplify usage
+
+### Features
+
+* **schemas/:** replaced osu namespace with flat config, i.e. getResoruce functions ([4109ff9](https://github.com/KemingHe/OSU/commit/4109ff9fd0df412aa7cca2951d2b8ee137decb44))
+
 ## [1.1.1](https://github.com/KemingHe/OSU/compare/v1.1.0...v1.1.1) (2024-08-03)
 
 ## [1.1.0](https://github.com/KemingHe/OSU/compare/v1.0.10...v1.1.0) (2024-08-03)
