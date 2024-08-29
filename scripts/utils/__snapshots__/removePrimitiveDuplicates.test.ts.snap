@@ -1,0 +1,17 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`The removePrimitiveDuplicates utility function > removes duplicate numbers from an array 1`] = `
+[
+  1,
+  2,
+  3,
+]
+`;
+
+exports[`The removePrimitiveDuplicates utility function > removes duplicate strings from an array 1`] = `
+[
+  "a",
+  "b",
+  "c",
+]
+`;

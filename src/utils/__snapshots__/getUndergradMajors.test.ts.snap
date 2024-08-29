@@ -1,0 +1,2169 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`The getUndergradMajors utility function (currently static) > returns an array of valid UndergradMajor objects 1`] = `
+[
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Business",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Accounting",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Arts and Sciences",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Actuarial Science",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Engineering",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Aerospace Engineering",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Arts and Sciences",
+    "degrees": [
+      "BA (Bachelor of Arts)",
+    ],
+    "major": "African American and African Studies",
+  },
+  {
+    "campuses": [
+      "Wooster",
+    ],
+    "college": "Food, Agricultural and Environmental Sciences",
+    "degrees": [
+      "AS (Associate of Science)",
+    ],
+    "major": "Agribusiness",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Food, Agricultural and Environmental Sciences",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Agribusiness and Applied Economics",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Food, Agricultural and Environmental Sciences",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Agricultural Communication",
+  },
+  {
+    "campuses": [
+      "Wooster",
+    ],
+    "college": "Food, Agricultural and Environmental Sciences",
+    "degrees": [
+      "AS (Associate of Science)",
+    ],
+    "major": "Agricultural Communication",
+  },
+  {
+    "campuses": [
+      "Wooster",
+    ],
+    "college": "Food, Agricultural and Environmental Sciences",
+    "degrees": [
+      "AS (Associate of Science)",
+    ],
+    "major": "Agricultural Systems Management",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Food, Agricultural and Environmental Sciences",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Agricultural Systems Management",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Food, Agricultural and Environmental Sciences",
+    "degrees": null,
+    "major": "Agriculture, Exploring",
+  },
+  {
+    "campuses": [
+      "Wooster",
+    ],
+    "college": "Food, Agricultural and Environmental Sciences",
+    "degrees": [
+      "AS (Associate of Science)",
+    ],
+    "major": "Agriscience Education",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Food, Agricultural and Environmental Sciences",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Agriscience Education",
+  },
+  {
+    "campuses": [
+      "Wooster",
+    ],
+    "college": "Food, Agricultural and Environmental Sciences",
+    "degrees": [
+      "AS (Associate of Science)",
+    ],
+    "major": "Agronomy",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Arts and Sciences",
+    "degrees": [
+      "BA (Bachelor of Arts)",
+    ],
+    "major": "Ancient History and Classics",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Food, Agricultural and Environmental Sciences",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Animal Sciences",
+  },
+  {
+    "campuses": [
+      "Wooster",
+    ],
+    "college": "Food, Agricultural and Environmental Sciences",
+    "degrees": [
+      "AS (Associate of Science)",
+    ],
+    "major": "Animal Sciences",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Arts and Sciences",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Anthropological Sciences",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Arts and Sciences",
+    "degrees": [
+      "BA (Bachelor of Arts)",
+    ],
+    "major": "Anthropology",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Arts and Sciences",
+    "degrees": [
+      "BA (Bachelor of Arts)",
+    ],
+    "major": "Arabic",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Architecture",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Architecture",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Arts and Sciences",
+    "degrees": [
+      "BA (Bachelor of Arts)",
+      "BFA (Bachelor of Fine Arts)",
+    ],
+    "major": "Art",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Arts and Sciences",
+    "degrees": null,
+    "major": "Art Education",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Arts and Sciences",
+    "degrees": null,
+    "major": "Arts and Sciences, Undecided",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Arts and Sciences",
+    "degrees": [
+      "BA (Bachelor of Arts)",
+    ],
+    "major": "Arts Management",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Arts and Sciences",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Astronomy and Astrophysics",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Arts and Sciences",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Atmospheric Sciences",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Engineering",
+    "degrees": [
+      "BS (Bachelor of Science)",
+      "BA (Bachelor of Arts)",
+    ],
+    "major": "Aviation",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Business",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Aviation Management",
+  },
+  {
+    "campuses": [
+      "Wooster",
+    ],
+    "college": "Food, Agricultural and Environmental Sciences",
+    "degrees": [
+      "AS (Associate of Science)",
+    ],
+    "major": "Biochemical Sciences",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Arts and Sciences",
+    "degrees": [
+      "BS (Bachelor of Science)",
+      "BA (Bachelor of Arts)",
+    ],
+    "major": "Biochemistry",
+  },
+  {
+    "campuses": [
+      "Columbus",
+      "Lima",
+      "Marion",
+      "Mansfield",
+    ],
+    "college": "Arts and Sciences",
+    "degrees": [
+      "BS (Bachelor of Science)",
+      "BA (Bachelor of Arts)",
+    ],
+    "major": "Biology",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Engineering",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Biomedical Engineering",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Medicine",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Biomedical Science",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Business",
+    "degrees": null,
+    "major": "Business Administration, Undecided",
+  },
+  {
+    "campuses": [
+      "Lima",
+      "Marion",
+      "Mansfield",
+      "Newark",
+    ],
+    "college": "Business",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Business Management",
+  },
+  {
+    "campuses": [
+      "Wooster",
+    ],
+    "college": "Food, Agricultural and Environmental Sciences",
+    "degrees": [
+      "AA (Associate of Arts)",
+    ],
+    "major": "Business Management",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Engineering",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Chemical Engineering",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Arts and Sciences",
+    "degrees": [
+      "BS (Bachelor of Science)",
+      "BA (Bachelor of Arts)",
+    ],
+    "major": "Chemistry",
+  },
+  {
+    "campuses": [
+      "Columbus",
+      "Lima",
+      "Marion",
+      "Mansfield",
+      "Newark",
+    ],
+    "college": "Education and Human Ecology",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Child and Youth Studies",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Arts and Sciences",
+    "degrees": [
+      "BA (Bachelor of Arts)",
+    ],
+    "major": "Chinese",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Architecture",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "City and Regional Planning",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Engineering",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Civil Engineering",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Arts and Sciences",
+    "degrees": [
+      "BA (Bachelor of Arts)",
+    ],
+    "major": "Classics",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Arts and Sciences",
+    "degrees": [
+      "BA (Bachelor of Arts)",
+    ],
+    "major": "Communication",
+  },
+  {
+    "campuses": [
+      "Wooster",
+    ],
+    "college": "Food, Agricultural and Environmental Sciences",
+    "degrees": [
+      "AS (Associate of Science)",
+    ],
+    "major": "Community Leadership",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Food, Agricultural and Environmental Sciences",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Community Leadership",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Arts and Sciences",
+    "degrees": [
+      "BA (Bachelor of Arts)",
+    ],
+    "major": "Comparative Studies",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Arts and Sciences",
+    "degrees": [
+      "BS (Bachelor of Science)",
+      "BA (Bachelor of Arts)",
+    ],
+    "major": "Computer and Information Science",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Engineering",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Computer Science and Engineering",
+  },
+  {
+    "campuses": [
+      "Wooster",
+    ],
+    "college": "Food, Agricultural and Environmental Sciences",
+    "degrees": [
+      "AA (Associate of Arts)",
+    ],
+    "major": "Construction Management",
+  },
+  {
+    "campuses": [
+      "Wooster",
+    ],
+    "college": "Food, Agricultural and Environmental Sciences",
+    "degrees": [
+      "AS (Associate of Science)",
+    ],
+    "major": "Construction Systems Management",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Food, Agricultural and Environmental Sciences",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Construction Systems Management",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Education and Human Ecology",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Consumer and Family Financial Services",
+  },
+  {
+    "campuses": [
+      "Columbus",
+      "Marion",
+      "Mansfield",
+    ],
+    "college": "Arts and Sciences",
+    "degrees": [
+      "BA (Bachelor of Arts)",
+    ],
+    "major": "Criminology and Criminal Justice Studies",
+  },
+  {
+    "campuses": [
+      "Wooster",
+    ],
+    "college": "Food, Agricultural and Environmental Sciences",
+    "degrees": [
+      "AA (Associate of Arts)",
+    ],
+    "major": "Crop Management and Soil Conservation",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Food, Agricultural and Environmental Sciences",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Culinary Science",
+  },
+  {
+    "campuses": [
+      "Wooster",
+    ],
+    "college": "Food, Agricultural and Environmental Sciences",
+    "degrees": [
+      "AA (Associate of Arts)",
+    ],
+    "major": "Dairy Cattle Production and Management",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Arts and Sciences",
+    "degrees": [
+      "BFA (Bachelor of Fine Arts)",
+    ],
+    "major": "Dance",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Arts and Sciences",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Data Analytics",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Dental Hygiene",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Dental Hygiene",
+  },
+  {
+    "campuses": [
+      "Columbus",
+      "Lima",
+    ],
+    "college": "Dental Hygiene",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Dental Hygiene (baccalaureate completion program)",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Arts and Sciences",
+    "degrees": [
+      "BS (Bachelor of Science)",
+      "BA (Bachelor of Arts)",
+    ],
+    "major": "Earth Sciences",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Arts and Sciences",
+    "degrees": [
+      "BS (Bachelor of Science)",
+      "BA (Bachelor of Arts)",
+    ],
+    "major": "Economics",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Business",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Economics – Business",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Education and Human Ecology",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Education – Integrated Language Arts/English Education",
+  },
+  {
+    "campuses": [
+      "Columbus",
+      "Lima",
+      "Marion",
+      "Mansfield",
+      "Newark",
+    ],
+    "college": "Education and Human Ecology",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Education – Middle Childhood Education",
+  },
+  {
+    "campuses": [
+      "Columbus",
+      "Lima",
+      "Marion",
+      "Mansfield",
+      "Newark",
+    ],
+    "college": "Education and Human Ecology",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Education – Primary Education",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Education and Human Ecology",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Education – Science and Mathematics Education",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Education and Human Ecology",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Education – Special Education",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Education and Human Ecology",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Education – Teaching English to Speakers of Other Languages",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Education and Human Ecology",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Education – Technical Education and Training",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Education and Human Ecology",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Education – World Language Education",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Engineering",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Electrical and Computer Engineering",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Engineering",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Engineering Physics",
+  },
+  {
+    "campuses": [
+      "Lima",
+      "Marion",
+      "Mansfield",
+      "Newark",
+    ],
+    "college": "Engineering",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Engineering Technology",
+  },
+  {
+    "campuses": [
+      "Columbus",
+      "Lima",
+      "Marion",
+      "Mansfield",
+      "Newark",
+    ],
+    "college": "Arts and Sciences",
+    "degrees": [
+      "BA (Bachelor of Arts)",
+    ],
+    "major": "English",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Food, Agricultural and Environmental Sciences",
+    "degrees": [
+      "BS (Bachelor of Science)",
+      "BA (Bachelor of Arts)",
+    ],
+    "major": "Entomology",
+  },
+  {
+    "campuses": [
+      "Wooster",
+    ],
+    "college": "Food, Agricultural and Environmental Sciences",
+    "degrees": [
+      "AS (Associate of Science)",
+    ],
+    "major": "Environment and Natural Resources",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Environment and Natural Resources",
+    "degrees": null,
+    "major": "Environment and Natural Resources, Undecided",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Environment and Natural Resources",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Environment, Economy, Development and Sustainability",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Engineering",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Environmental Engineering",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Environment and Natural Resources",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Environmental Policy and Decision Making",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Environment and Natural Resources",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Environmental Science",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Arts and Sciences",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Evolution and Ecology",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Education and Human Ecology",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Exercise Science Education",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Education and Human Ecology",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Fashion and Retail Studies",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Arts and Sciences",
+    "degrees": [
+      "BA (Bachelor of Arts)",
+    ],
+    "major": "Film Studies",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Business",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Finance",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Food, Agricultural and Environmental Sciences",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Food Business Management",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Food, Agricultural and Environmental Sciences",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Food Science and Technology",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Engineering",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Food, Agricultural and Biological Engineering",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Arts and Sciences",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Forensic Anthropology",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Environment and Natural Resources",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Forestry, Fisheries and Wildlife",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Arts and Sciences",
+    "degrees": [
+      "BA (Bachelor of Arts)",
+    ],
+    "major": "French",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Arts and Sciences",
+    "degrees": [
+      "BA (Bachelor of Arts)",
+    ],
+    "major": "French and Francophone Studies",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Arts and Sciences",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Geographic Information Science",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Arts and Sciences",
+    "degrees": [
+      "BS (Bachelor of Science)",
+      "BA (Bachelor of Arts)",
+    ],
+    "major": "Geography",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Arts and Sciences",
+    "degrees": [
+      "BA (Bachelor of Arts)",
+    ],
+    "major": "German",
+  },
+  {
+    "campuses": [
+      "Wooster",
+    ],
+    "college": "Food, Agricultural and Environmental Sciences",
+    "degrees": [
+      "AA (Associate of Arts)",
+    ],
+    "major": "Greenhouse and Nursery Management",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Health and Rehabilitation Sciences",
+    "degrees": null,
+    "major": "Health and Rehabilitation Sciences, Undecided",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Nursing",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Health and Wellness",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Health and Rehabilitation Sciences",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Health Information Management and Systems",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Education and Human Ecology",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Health Promotion, Nutrition and Exercise Science",
+  },
+  {
+    "campuses": [
+      "Columbus",
+      "Lima",
+    ],
+    "college": "Health and Rehabilitation Sciences",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Health Sciences",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Arts and Sciences",
+    "degrees": [
+      "BA (Bachelor of Arts)",
+    ],
+    "major": "Hebrew and Jewish Studies",
+  },
+  {
+    "campuses": [
+      "Columbus",
+      "Lima",
+      "Marion",
+      "Mansfield",
+      "Newark",
+    ],
+    "college": "Arts and Sciences",
+    "degrees": [
+      "BA (Bachelor of Arts)",
+    ],
+    "major": "History",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Arts and Sciences",
+    "degrees": [
+      "BA (Bachelor of Arts)",
+    ],
+    "major": "History of Art",
+  },
+  {
+    "campuses": [
+      "Wooster",
+    ],
+    "college": "Food, Agricultural and Environmental Sciences",
+    "degrees": [
+      "AA (Associate of Arts)",
+    ],
+    "major": "Horse Production and Management",
+  },
+  {
+    "campuses": [
+      "Wooster",
+    ],
+    "college": "Food, Agricultural and Environmental Sciences",
+    "degrees": [
+      "AS (Associate of Science)",
+    ],
+    "major": "Horticultural Science",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Education and Human Ecology",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Hospitality Management",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Education and Human Ecology",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Human Development and Family Science",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Education and Human Ecology",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Human Nutrition",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Business",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Human Resources",
+  },
+  {
+    "campuses": [
+      "Wooster",
+    ],
+    "college": "Food, Agricultural and Environmental Sciences",
+    "degrees": [
+      "AA (Associate of Arts)",
+    ],
+    "major": "Hydraulic Power and Motion Control",
+  },
+  {
+    "campuses": [
+      "Wooster",
+    ],
+    "college": "Food, Agricultural and Environmental Sciences",
+    "degrees": null,
+    "major": "Hydraulic Service and Repair",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Engineering",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Industrial and Systems Engineering",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Arts and Sciences",
+    "degrees": [
+      "BSD (Bachelor of Science in Design)",
+    ],
+    "major": "Industrial Design",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Business",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Information Systems",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Business",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Insurance",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Arts and Sciences",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Integrated Major in Mathematics and English",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Arts and Sciences",
+    "degrees": [
+      "BSD (Bachelor of Science in Design)",
+    ],
+    "major": "Interior Design",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Business",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "International Business",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Arts and Sciences",
+    "degrees": [
+      "BS (Bachelor of Science)",
+      "BA (Bachelor of Arts)",
+    ],
+    "major": "International Studies",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Arts and Sciences",
+    "degrees": [
+      "BA (Bachelor of Arts)",
+    ],
+    "major": "Islamic Studies",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Arts and Sciences",
+    "degrees": [
+      "BA (Bachelor of Arts)",
+    ],
+    "major": "Italian",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Arts and Sciences",
+    "degrees": [
+      "BA (Bachelor of Arts)",
+    ],
+    "major": "Italian Studies",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Arts and Sciences",
+    "degrees": [
+      "BA (Bachelor of Arts)",
+    ],
+    "major": "Japanese",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Arts and Sciences",
+    "degrees": [
+      "BA (Bachelor of Arts)",
+    ],
+    "major": "Journalism",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Arts and Sciences",
+    "degrees": [
+      "BA (Bachelor of Arts)",
+    ],
+    "major": "Korean",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Architecture",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Landscape Architecture",
+  },
+  {
+    "campuses": [
+      "Wooster",
+    ],
+    "college": "Food, Agricultural and Environmental Sciences",
+    "degrees": [
+      "AA (Associate of Arts)",
+    ],
+    "major": "Landscape Horticulture",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Arts and Sciences",
+    "degrees": [
+      "BA (Bachelor of Arts)",
+    ],
+    "major": "Linguistics",
+  },
+  {
+    "campuses": [
+      "Wooster",
+    ],
+    "college": "Food, Agricultural and Environmental Sciences",
+    "degrees": [
+      "AA (Associate of Arts)",
+    ],
+    "major": "Livestock Production and Management",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Business",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Logistics Management",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Business",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Marketing",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Engineering",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Materials Science and Engineering",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Arts and Sciences",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Mathematics",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Engineering",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Mechanical Engineering",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Arts and Sciences",
+    "degrees": [
+      "BS (Bachelor of Science)",
+      "BA (Bachelor of Arts)",
+    ],
+    "major": "Medical Anthropology",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Health and Rehabilitation Sciences",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Medical Laboratory Science",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Arts and Sciences",
+    "degrees": [
+      "BA (Bachelor of Arts)",
+    ],
+    "major": "Medieval and Renaissance Studies",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Arts and Sciences",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Microbiology",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Arts and Sciences",
+    "degrees": [
+      "BA (Bachelor of Arts)",
+    ],
+    "major": "Modern Greek",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Arts and Sciences",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Molecular Genetics",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Arts and Sciences",
+    "degrees": [
+      "BA (Bachelor of Arts)",
+    ],
+    "major": "Moving-Image Production",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Arts and Sciences",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Music",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Arts and Sciences",
+    "degrees": [
+      "BA (Bachelor of Arts)",
+    ],
+    "major": "Music",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Arts and Sciences",
+    "degrees": [
+      "BM (Bachelor of Music)",
+    ],
+    "major": "Music – Composition",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Arts and Sciences",
+    "degrees": [
+      "BME (Bachelor of Music Education)",
+    ],
+    "major": "Music – Education",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Arts and Sciences",
+    "degrees": [
+      "BM (Bachelor of Music)",
+    ],
+    "major": "Music – Jazz Studies",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Arts and Sciences",
+    "degrees": [
+      "BM (Bachelor of Music)",
+    ],
+    "major": "Music – Musicology",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Arts and Sciences",
+    "degrees": [
+      "BM (Bachelor of Music)",
+    ],
+    "major": "Music – Performance (orchestral instruments)",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Arts and Sciences",
+    "degrees": [
+      "BM (Bachelor of Music)",
+    ],
+    "major": "Music – Performance (piano)",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Arts and Sciences",
+    "degrees": [
+      "BM (Bachelor of Music)",
+    ],
+    "major": "Music – Performance (voice)",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Arts and Sciences",
+    "degrees": [
+      "BM (Bachelor of Music)",
+    ],
+    "major": "Music – Theory",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Environment and Natural Resources",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Natural Resource Management",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Arts and Sciences",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Neuroscience",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Nursing",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Nursing",
+  },
+  {
+    "campuses": [
+      "Columbus",
+      "Marion",
+      "Newark",
+    ],
+    "college": "Nursing",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Nursing (RN to BSN)",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Health and Rehabilitation Sciences",
+    "degrees": null,
+    "major": "Occupational Therapy",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Business",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Operations Management",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Pharmacy",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Pharmaceutical Sciences",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Arts and Sciences",
+    "degrees": [
+      "BA (Bachelor of Arts)",
+    ],
+    "major": "Philosophy",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Arts and Sciences",
+    "degrees": [
+      "BA (Bachelor of Arts)",
+    ],
+    "major": "Philosophy, Politics and Economics",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Health and Rehabilitation Sciences",
+    "degrees": null,
+    "major": "Physical Therapy",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Arts and Sciences",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Physics",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Food, Agricultural and Environmental Sciences",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Plant Pathology",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Arts and Sciences",
+    "degrees": [
+      "BS (Bachelor of Science)",
+      "BA (Bachelor of Arts)",
+    ],
+    "major": "Political Science",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Arts and Sciences",
+    "degrees": [
+      "BA (Bachelor of Arts)",
+    ],
+    "major": "Portuguese",
+  },
+  {
+    "campuses": [
+      "Wooster",
+    ],
+    "college": "Food, Agricultural and Environmental Sciences",
+    "degrees": [
+      "AA (Associate of Arts)",
+    ],
+    "major": "Power Equipment",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Pre-Professional",
+    "degrees": null,
+    "major": "Pre-Dentistry",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Pre-Professional",
+    "degrees": null,
+    "major": "Pre-Law",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Pre-Professional",
+    "degrees": null,
+    "major": "Pre-Medicine",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Pre-Professional",
+    "degrees": null,
+    "major": "Pre-Optometry",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Pre-Professional",
+    "degrees": null,
+    "major": "Pre-Pharmacy",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Pre-Professional",
+    "degrees": null,
+    "major": "Pre-Veterinary Medicine",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Food, Agricultural and Environmental Sciences",
+    "degrees": null,
+    "major": "Professional Golf Management",
+  },
+  {
+    "campuses": [
+      "Wooster",
+    ],
+    "college": "Food, Agricultural and Environmental Sciences",
+    "degrees": null,
+    "major": "Professional Golf Management 1 + 3",
+  },
+  {
+    "campuses": [
+      "Columbus",
+      "Lima",
+      "Marion",
+      "Mansfield",
+      "Newark",
+    ],
+    "college": "Arts and Sciences",
+    "degrees": [
+      "BS (Bachelor of Science)",
+      "BA (Bachelor of Arts)",
+    ],
+    "major": "Psychology",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Public Health",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Public Health",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Public Affairs",
+    "degrees": [
+      "BA (Bachelor of Arts)",
+    ],
+    "major": "Public Management, Leadership and Policy",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Public Affairs",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Public Policy Analysis",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Health and Rehabilitation Sciences",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Radiologic Sciences and Therapy",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Business",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Real Estate and Urban Analysis",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Arts and Sciences",
+    "degrees": [
+      "BA (Bachelor of Arts)",
+    ],
+    "major": "Religious Studies",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Health and Rehabilitation Sciences",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Respiratory Therapy",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Arts and Sciences",
+    "degrees": [
+      "BA (Bachelor of Arts)",
+    ],
+    "major": "Romance Studies",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Arts and Sciences",
+    "degrees": [
+      "BA (Bachelor of Arts)",
+    ],
+    "major": "Russian",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Arts and Sciences",
+    "degrees": [
+      "BA (Bachelor of Arts)",
+    ],
+    "major": "Social Sciences Air Transportation",
+  },
+  {
+    "campuses": [
+      "Columbus",
+      "Lima",
+      "Marion",
+      "Mansfield",
+      "Newark",
+    ],
+    "college": "Social Work",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Social Work",
+  },
+  {
+    "campuses": [
+      "Columbus",
+      "Mansfield",
+    ],
+    "college": "Arts and Sciences",
+    "degrees": [
+      "BS (Bachelor of Science)",
+      "BA (Bachelor of Arts)",
+    ],
+    "major": "Sociology",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Arts and Sciences",
+    "degrees": [
+      "BA (Bachelor of Arts)",
+    ],
+    "major": "Spanish",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Arts and Sciences",
+    "degrees": [
+      "BA (Bachelor of Arts)",
+    ],
+    "major": "Speech and Hearing Science",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Education and Human Ecology",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Sport Industry",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Arts and Sciences",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Statistics",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Food, Agricultural and Environmental Sciences",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Sustainable Agriculture",
+  },
+  {
+    "campuses": [
+      "Wooster",
+    ],
+    "college": "Food, Agricultural and Environmental Sciences",
+    "degrees": [
+      "AS (Associate of Science)",
+    ],
+    "major": "Sustainable Agriculture",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Food, Agricultural and Environmental Sciences",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Sustainable Plant Systems",
+  },
+  {
+    "campuses": [
+      "Columbus",
+      "Lima",
+    ],
+    "college": "Arts and Sciences",
+    "degrees": [
+      "BA (Bachelor of Arts)",
+    ],
+    "major": "Theatre",
+  },
+  {
+    "campuses": [
+      "Wooster",
+    ],
+    "college": "Food, Agricultural and Environmental Sciences",
+    "degrees": [
+      "AA (Associate of Arts)",
+    ],
+    "major": "Turfgrass Management",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "University Exploration",
+    "degrees": null,
+    "major": "University Exploration – Arts, Innovation and Creativity Exploration",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "University Exploration",
+    "degrees": null,
+    "major": "University Exploration – Behavior, Culture and Context Exploration",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "University Exploration",
+    "degrees": null,
+    "major": "University Exploration – Education and Public Service Exploration",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "University Exploration",
+    "degrees": null,
+    "major": "University Exploration – Health and Human Services Exploration",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "University Exploration",
+    "degrees": null,
+    "major": "University Exploration – Management and Industry Exploration",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "University Exploration",
+    "degrees": null,
+    "major": "University Exploration – Science, Technology and Environment Exploration",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "University Exploration",
+    "degrees": null,
+    "major": "University Exploration – Undecided/Exploring",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Arts and Sciences",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Vision Science",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Arts and Sciences",
+    "degrees": [
+      "BSD (Bachelor of Science in Design)",
+    ],
+    "major": "Visual Communication Design",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Engineering",
+    "degrees": [
+      "BS (Bachelor of Science)",
+    ],
+    "major": "Welding Engineering",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Arts and Sciences",
+    "degrees": [
+      "BA (Bachelor of Arts)",
+    ],
+    "major": "Women's, Gender and Sexuality Studies",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Arts and Sciences",
+    "degrees": [
+      "BA (Bachelor of Arts)",
+    ],
+    "major": "World Literatures",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Arts and Sciences",
+    "degrees": [
+      "BA (Bachelor of Arts)",
+    ],
+    "major": "World Politics",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "college": "Arts and Sciences",
+    "degrees": [
+      "BS (Bachelor of Science)",
+      "BA (Bachelor of Arts)",
+    ],
+    "major": "Zoology",
+  },
+]
+`;

@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # ./.husky/pre-commit
 #
 # Pre-commit hook script, updates dependencies,
@@ -15,11 +17,11 @@ pnpm update
 # Run linter.
 pnpm run lint
 
-# Stage any changes made by the commands above.
-git add --all
+# Test build the package in preperation for release.
+pnpm run build
 
 # Run test and enforce 100% coverage.
 pnpm run test:coverage
 
-# Test build the package in preperation for release.
-pnpm run build
+# Stage any changes made by the commands above.
+git add --all

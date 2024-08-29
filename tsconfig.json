@@ -2,6 +2,7 @@
   "compilerOptions": {
     "verbatimModuleSyntax": true,
     "moduleResolution": "Bundler",
+    "resolveJsonModule": true,
     "esModuleInterop": true,
     "module": "ESNext",
     "strict": true,

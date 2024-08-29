@@ -42,6 +42,10 @@
 
 > [!IMPORTANT]
 >
+> **Versions 1.1.0 and below are DEPRECATED!** Please upgrade to the latest version.
+
+> [!NOTE]
+>
 > Build by students, for students, with :heart:. **NOT** affiliated nor endorsed by official OSU.
 >
 > * Publicly-available data about OSU undergrad majors [here](https://undergrad.osu.edu/majors-and-academics/majors).
@@ -49,7 +53,7 @@
 
 ## :gear: Installation
 
-Required: Node >= 14
+Requires [Node.js](https://nodejs.org/en/download/package-manager) >= **14**
 
 ```bash
 # Using npm:
@@ -67,57 +71,126 @@ pnpm add @keminghe/osu
 ### Using Validators
 
 ```typescript
-import { isNameDotNumber, isOSUEmail, isBuckeyemail, isOSUOrBuckeyemail } from '@keminghe/osu';
+// Using OSU email validator functions.
+import {
+  isNameDotNum,
+  isOSUDotEduEmail,
+  isBuckeyemail,
+  isOSUEmail,
+} from "@keminghe/osu";
+
+isNameDotNum("buckeye.1");                      // true
+isOSUDotEduEmail("buckeye.1@osu.edu");          // true
+isBuckeyemail("buckeye.1@buckeyemail.osu.edu"); // true
+isOSUEmail("non-osu@gmail.com");                // false
+```
+
+### Using RegExp Patterns
+
+```typescript
+// Using OSU name dot num and email RegExp patterns.
+import {
+  NAME_DOT_NUM_PATTERN,
+  OSU_DOT_EDU_EMAIL_PATTERN,
+  BUCKEYEMAIL_PATTERN
+} from "@keminghe/osu";
+
+NAME_DOT_NUM_PATTERN.test("buckeye.1");                         // true
+OSU_DOT_EDU_EMAIL_PATTERN.test("buckeye.1@osu.edu");            // true
+BUCKEYEMAIL_PATTERN.test("buckeyemail.1@buckeyemail.osu.edu");  // true
+```
+
+### Accessing Undergrad Majors Data
+
+```typescript
+import { getUndergradMajors, type UndergradMajor } from "@keminghe/osu";
+
+const majors: UndergradMajor[] = getUndergradMajors();
+console.log(majors);
+```
+
+### Accessing Student Organization Data
+
+```typescript
+import { getStudentOrgs, type StudentOrg } from "@keminghe/osu";
+
+const orgs: StudentOrg[] = getStudentOrgs();
+console.log(orgs);
+```
+
+<details>
+<summary>DEPRECATED v1.1.0 Documentation</summary>
+
+### (DEPRECATED v1.1.0) Using Validators
+
+```typescript
+import { isNameDotNumber, isOSUEmail, isBuckeyemail, isOSUOrBuckeyemail } from "@keminghe/osu";
 ```
 
 ```typescript
-const flag1 = isNameDotNumber('brutus.1');                    // true
-const flag2 = isNameDotNumber('adams-brown-catlyn.3');        // true
-const flag3 = isOSUEmail('brutus.1@osu.edu');                 // true
-const flag4 = isBuckeyemail('brutus.1@buckeyemail.osu.edu');  // true
-const flag5 = isOSUOrBuckeyemail('non-osu@email.com');        // false
+const flag1 = isNameDotNumber("brutus.1");                    // true
+const flag2 = isNameDotNumber("adams-brown-catlyn.3");        // true
+const flag3 = isOSUEmail("brutus.1@osu.edu");                 // true
+const flag4 = isBuckeyemail("brutus.1@buckeyemail.osu.edu");  // true
+const flag5 = isOSUOrBuckeyemail("non-osu@email.com");        // false
 ```
 
-### Accessing Undergraduate Majors and Degrees
+### (DEPRECATED v1.1.0) Accessing Undergraduate Majors and Degrees
 
 ```typescript
-import osu from '@keminghe/osu';
+import osu from "@keminghe/osu";
 
 const majors = osu.undergrad.majors;
 console.log(majors);
 ```
 
-### Accessing Student Organizations
+### (DEPRECATED v1.1.0) Accessing Student Organizations
 
 ```typescript
-import osu from '@keminghe/osu';
+import osu from "@keminghe/osu";
 
 const studentOrgs = osu.studentOrgs;
 console.log(studentOrgs);
 ```
 
+</details>
+
 ## :blue_book: API
 
-```typescript
-interface StudentOrg {
-  name            : string;
-  purposeStatement: string;
-  affiliation     : string[];
-}
+### `StudentOrg` Type
+
+```typescript path=src/schemas/StudentOrg.ts
+/**
+ * TypeScript type inferred from the `StudentOrg` Zod schema.
+ *
+ * This type represents the structure of a student organization object as defined by the `StudentOrg` schema.
+ *
+ * @typedef {Object} StudentOrg
+ * @property {string} name - Name of the student organization, represented by a non-empty string.
+ * @property {string | null} purposeStatement - Purpose statement of the student organization, represented by a non-empty string, or null if not applicable or missing data.
+ * @property {Campus[] | null} campuses - Campuses where the student organization is active, represented by a non-empty array of `Campus` objects, or null if not applicable or missing data.
+ * @property {StudentOrgCategory[] | null} categories - Categories of the student organization, represented by a non-empty array of `StudentOrgCategory` objects, or null if not applicable or missing data.
+ */
+export type StudentOrg = z.infer<typeof StudentOrgSchema>;
 ```
 
+### `UndergradMajor` Type
 
-> [!NOTE]
->
-> Certain majors are exploratory and are **NOT** associated with any degree.
-
-```typescript
-interface Major {
-  major  : string;
-  degree : string | null;
-  campus : string;
-  college: string;
-}
+```typescript path=src/schemas/UndergradMajor.ts
+/**
+ * TypeScript type inferred from the `UndergradMajor` Zod schema.
+ *
+ * This type represents the structure of an undergraduate major object as defined by the `UndergradMajor` schema.
+ *
+ * @typedef {Object} UndergradMajor
+ * @property {string} major - Name of the major, represented by a non-empty string.
+ * @property {UndergradDegree[] | null} degrees - Array of undergraduate degrees associated with the major, represented by a non-empty array of `UndergradDegree` objects, or null if not applicable or missing data.
+ * @property {Campus[] | null} campuses - Campuses where the major is offered, represented by a non-empty array of `Campus` objects, or null if not applicable or missing data.
+ * @property {College | null} college - College where the major belongs, represented by a `College` object, or null if not applicable or missing data.
+ *
+ * @see {@link UndergradMajorInterface} for the equivalent native TypeScript interface.
+ */
+export type UndergradMajor = z.infer<typeof UndergradMajorSchema>;
 ```
 
 ## :key: License
