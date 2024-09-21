@@ -120,7 +120,7 @@ const orgs: StudentOrg[] = getStudentOrgs();
 console.log(orgs);
 ```
 
-## Accessing All Undergrad Research Postings
+### Accessing All Undergrad Research Postings
 
 ```typescript
 import { getResearchPostingsAsync } from "@keminghe/osu";
