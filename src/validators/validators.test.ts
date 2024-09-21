@@ -14,7 +14,7 @@ import {
   isNameDotNum,
   isOSUDotEduEmail,
   isOSUEmail,
-} from "@src/utils/validators";
+} from "@src/validators/validators";
 
 // -----------------------------------------------------------------------------
 // Utility interface and function for batch testing.

@@ -8,6 +8,7 @@ import { describe, expect, it } from "vitest";
 // Testing module imports.
 import * as entrypoint from "@src/index";
 
+// -----------------------------------------------------------------------------
 // Entrypoint integration test suite.
 describe("The OSU package entrypoint", () => {
   it("exports the validator constants and utilities", () => {
@@ -21,11 +22,33 @@ describe("The OSU package entrypoint", () => {
     expect(entrypoint).toHaveProperty("isOSUEmail");
   });
 
+  // ---------------------------------------------------------------------------
+  // Student organization schema and utility export tests.
+  it("exports the StudentOrgSchema ZodSchema", () => {
+    expect(entrypoint).toHaveProperty("StudentOrgSchema");
+  });
+
   it("exports the getStudentOrgs utility function", () => {
     expect(entrypoint).toHaveProperty("getStudentOrgs");
   });
 
+  // ---------------------------------------------------------------------------
+  // Undergraduate major schema and utility export tests
+  it("exports the UndergradMajorSchema ZodSchema", () => {
+    expect(entrypoint).toHaveProperty("UndergradMajorSchema");
+  });
+
   it("exports the getUndergradMajors utility function", () => {
     expect(entrypoint).toHaveProperty("getUndergradMajors");
+  });
+
+  // ---------------------------------------------------------------------------
+  // Research posting schema and utility export tests
+  it("exports the ResearchPostingSchema ZodSchema", () => {
+    expect(entrypoint).toHaveProperty("ResearchPostingSchema");
+  });
+
+  it("exports the getResearchPostingsAsync utility function", () => {
+    expect(entrypoint).toHaveProperty("getResearchPostingsAsync");
   });
 });

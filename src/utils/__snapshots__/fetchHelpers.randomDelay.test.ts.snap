@@ -1,0 +1,9 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`The randomDelay fetch helper function > throws an error if maximum delay is less than minimum delay 1`] = `[Error: Maximum delay must be greater than or equal to minimum delay.]`;
+
+exports[`The randomDelay fetch helper function > throws an error if maximum delay is less than or equal to 0 1`] = `[Error: Maximum delay must be strictly greater than 0.]`;
+
+exports[`The randomDelay fetch helper function > throws an error if maximum delay is less than or equal to 0 2`] = `[Error: Maximum delay must be strictly greater than 0.]`;
+
+exports[`The randomDelay fetch helper function > throws an error if minimum delay is less than 0 1`] = `[Error: Minimum delay must be greater than or equal to 0.]`;

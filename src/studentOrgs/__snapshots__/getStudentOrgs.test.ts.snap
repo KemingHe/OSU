@@ -144,16 +144,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
   },
   {
     "campuses": [
-      "Newark",
-    ],
-    "categories": [
-      "Special Interest",
-    ],
-    "name": "A Chance for Change",
-    "purposeStatement": "The purpose of this organization is to create student supported discussion and action on the topics of inequality, engage students to become...",
-  },
-  {
-    "campuses": [
       "Columbus",
     ],
     "categories": [
@@ -186,7 +176,7 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
       "Special Interest",
     ],
     "name": "The Academic Team at The Ohio State University",
-    "purposeStatement": "We aim to promote the spirit of engaging and enriching academic competition at the Ohio State University.",
+    "purposeStatement": "The Academic Team is the official Quizbowl Organization for OSU. Quizbowl, also known as Academic Challenge, Quick Recall, In The Know, or N...",
   },
   {
     "campuses": [
@@ -248,16 +238,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
   },
   {
     "campuses": [
-      "Newark",
-    ],
-    "categories": [
-      "Awareness/Activism",
-    ],
-    "name": "Active Minds",
-    "purposeStatement": "Active Minds at Ohio State Newark supports students and their mental health.",
-  },
-  {
-    "campuses": [
       "Columbus",
     ],
     "categories": [
@@ -289,16 +269,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
     ],
     "name": "ADEA Chapter for Students, Residents and Fellows at The Ohio State University",
     "purposeStatement": "The American Dental Education Association (ADEA) is The Voice of Dental Education. Our mission is to lead institutions and individuals in th...",
-  },
-  {
-    "campuses": [
-      "Wooster",
-    ],
-    "categories": [
-      "Special Interest",
-    ],
-    "name": "Admissions Ambassadors",
-    "purposeStatement": null,
   },
   {
     "campuses": [
@@ -374,18 +344,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
       "Columbus",
     ],
     "categories": [
-      "Religious/Spiritual",
-      "Ethnic/Cultural",
-      "Creative and Performing Arts",
-    ],
-    "name": "The African American Voices Gospel Choir",
-    "purposeStatement": "Our purpose is to foster an environment on campus whereby students can come together to celebrate God's existence through music and the arts...",
-  },
-  {
-    "campuses": [
-      "Columbus",
-    ],
-    "categories": [
       "Ethnic/Cultural",
       "Awareness/Activism",
       "Academic/College",
@@ -455,16 +413,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
   },
   {
     "campuses": [
-      "Wooster",
-    ],
-    "categories": [
-      "Academic/College",
-    ],
-    "name": "Agricultural Communicators, Educators, & Leaders of Tomorrow",
-    "purposeStatement": "Agricultural Communicators, Educators, & Leaders of Tomorrow",
-  },
-  {
-    "campuses": [
       "Columbus",
     ],
     "categories": [
@@ -496,16 +444,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
     ],
     "name": "Agricultural, Environmental, and Development Economics Graduate Student Association",
     "purposeStatement": "To foster a greater sense of community and support within the AEDE Graduate program by providing a variety of social and educational opportu...",
-  },
-  {
-    "campuses": [
-      "Wooster",
-    ],
-    "categories": [
-      "Academic/College",
-    ],
-    "name": "Agronomy Club",
-    "purposeStatement": "Agronomy club is centered around crop and soil agriculture, but is open to members of any major",
   },
   {
     "campuses": [
@@ -610,16 +548,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
     ],
     "name": "Alpha Chi Omega",
     "purposeStatement": "The purpose of Alpha Chi Omega Fraternity is “to encourage the spirit of true sisterhood, to develop through personal effort a high moral an...",
-  },
-  {
-    "campuses": [
-      "Newark",
-    ],
-    "categories": [
-      "Honoraries/Honor Societies",
-    ],
-    "name": "Alpha Delta Nu",
-    "purposeStatement": "Alpha Delta Nu is a nursing honor society that recognizes the academic excellence of students in the study of Associate Nursing Degree.",
   },
   {
     "campuses": [
@@ -936,7 +864,7 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
       "Awareness/Activism",
     ],
     "name": "American Association of Public Health Dentistry - The Ohio State Student",
-    "purposeStatement": "The purpose of this organization is to increase oral health awareness and educate underserved communities. We hope to do this by increasing ...",
+    "purposeStatement": "The purpose of this organization is to increase knowledge about the Dental Public Health specialty as well as increase oral health awareness...",
   },
   {
     "campuses": [
@@ -1048,16 +976,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
   },
   {
     "campuses": [
-      "Newark",
-    ],
-    "categories": [
-      "Ethnic/Cultural",
-    ],
-    "name": "American Indian and Indigenous Studies Organization",
-    "purposeStatement": "The Objectives of AISO are to expand education of American Indian Studies outside the classroom, develop a network of shared interest, allow...",
-  },
-  {
-    "campuses": [
       "Columbus",
     ],
     "categories": [
@@ -1161,16 +1079,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
     ],
     "name": "The American Red Cross at Ohio State",
     "purposeStatement": "The purpose of the American Red Cross at Ohio State is to bring together a diverse, selfless group of leaders and volunteers to alleviate hu...",
-  },
-  {
-    "campuses": [
-      "Newark",
-    ],
-    "categories": [
-      "Ethnic/Cultural",
-    ],
-    "name": "American Sign Language Student Organization",
-    "purposeStatement": "ASLSO Provides a space for students to engage with one another through ASL, to promote Deaf cultural awareness, and to broaden ASL skills th...",
   },
   {
     "campuses": [
@@ -1364,16 +1272,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
     ],
     "name": "Animal Welfare and Behavior Club",
     "purposeStatement": "To educate and promote animal welfare science to the University and greater community.",
-  },
-  {
-    "campuses": [
-      "Lima",
-    ],
-    "categories": [
-      "Special Interest",
-    ],
-    "name": "Animal Welfare Club",
-    "purposeStatement": "To promote activities which raise awareness and fund for animal projects.",
   },
   {
     "campuses": [
@@ -1628,16 +1526,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
   },
   {
     "campuses": [
-      "Wooster",
-    ],
-    "categories": [
-      "Creative and Performing Arts",
-    ],
-    "name": "Artists de Fleur Club",
-    "purposeStatement": "TEST",
-  },
-  {
-    "campuses": [
       "Columbus",
     ],
     "categories": [
@@ -1771,19 +1659,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
       "Columbus",
     ],
     "categories": [
-      "Ethnic/Cultural",
-      "Academic/College",
-      "Awareness/Activism",
-      "Special Interest",
-    ],
-    "name": "Asians in Vet Med at Ohio State",
-    "purposeStatement": "The main focus of this affinity group would be to create a sense of community and belonging for people who identify as Asian or mixed Asian ...",
-  },
-  {
-    "campuses": [
-      "Columbus",
-    ],
-    "categories": [
       "Religious/Spiritual",
       "Awareness/Activism",
       "Community Service/Service Learning",
@@ -1791,16 +1666,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
     ],
     "name": "Ask A Muslim",
     "purposeStatement": "AAM-OSU’s aim is to eradicate misconceptions about Islam, to show a good example of a Muslim’s demeanor, and to show a good example of Islam...",
-  },
-  {
-    "campuses": [
-      "Lima",
-    ],
-    "categories": [
-      "Special Interest",
-    ],
-    "name": "ASL Club",
-    "purposeStatement": "To spread knowledge of deaf community and teach others about the diverse culture that exists everywhere.",
   },
   {
     "campuses": [
@@ -1912,32 +1777,10 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
     ],
     "categories": [
       "Academic/College",
-      "Community Service/Service Learning",
-      "Special Interest",
-    ],
-    "name": "Association of Women in Construction",
-    "purposeStatement": "To create a community where women feel confident in their skills and knowledge due to the encouragement of their peers. To share similar exp...",
-  },
-  {
-    "campuses": [
-      "Columbus",
-    ],
-    "categories": [
-      "Academic/College",
       "Special Interest",
     ],
     "name": "Association of Women Surgeons",
     "purposeStatement": "The Association of Women Surgeons is dedicated to the mission of inspiring and supporting women in all stages of medical training and to ins...",
-  },
-  {
-    "campuses": [
-      "Lima",
-    ],
-    "categories": [
-      "Media, Journalism, and Creative Writing",
-    ],
-    "name": "Asterism: Undergraduate Literary Journal",
-    "purposeStatement": "A magazine open to promoting the work of students worldwide.",
   },
   {
     "campuses": [
@@ -1960,16 +1803,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
     ],
     "name": "Athletic Training Club at The Ohio State University",
     "purposeStatement": "OSU Athletic Training club is a student run organization focused on enhancing our profession, serving the community, and fostering the needs...",
-  },
-  {
-    "campuses": [
-      "Wooster",
-    ],
-    "categories": [
-      "Special Interest",
-    ],
-    "name": "ATI Book Club",
-    "purposeStatement": "To discuss a wide variety of titles including many different fiction genres and nonfiction including biography and memoir.",
   },
   {
     "campuses": [
@@ -2216,16 +2049,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
   },
   {
     "campuses": [
-      "Wooster",
-    ],
-    "categories": [
-      "Special Interest",
-    ],
-    "name": "Bee Club",
-    "purposeStatement": "The ATI Bee Club is open to any ATI student interested in learning more about honey bees and beekeeping (apiculture).",
-  },
-  {
-    "campuses": [
       "Columbus",
     ],
     "categories": [
@@ -2319,16 +2142,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
   },
   {
     "campuses": [
-      "Lima",
-    ],
-    "categories": [
-      "Religious/Spiritual",
-    ],
-    "name": "Bible Club",
-    "purposeStatement": "To promote the Bible Club as a faith based club, organized by students to study the bible and explore God’s plan for our lives.",
-  },
-  {
-    "campuses": [
       "Columbus",
     ],
     "categories": [
@@ -2372,16 +2185,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
     ],
     "name": "Billiards Club",
     "purposeStatement": "The OSU billiards club aims to help pool players at Ohio State meet and form teams to compete with nearby schools. Also, to give beginners a...",
-  },
-  {
-    "campuses": [
-      "Lima",
-    ],
-    "categories": [
-      "Academic/College",
-    ],
-    "name": "Bio Club",
-    "purposeStatement": "To encourage the pursuit of a high quality fun biological academic program. To provide students with the opportunity, and enrich in biologic...",
   },
   {
     "campuses": [
@@ -2595,16 +2398,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
   },
   {
     "campuses": [
-      "Newark",
-    ],
-    "categories": [
-      "Ethnic/Cultural",
-    ],
-    "name": "Black Student Association",
-    "purposeStatement": "The Black Student Association builds community and supports Black students at Ohio State Newark.",
-  },
-  {
-    "campuses": [
       "Columbus",
     ],
     "categories": [
@@ -2613,26 +2406,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
     ],
     "name": "Black Student Association",
     "purposeStatement": "The Black Student Association provides a safe space for Black students to fellowship and build community at The Ohio State University.",
-  },
-  {
-    "campuses": [
-      "Mansfield",
-    ],
-    "categories": [
-      "Ethnic/Cultural",
-    ],
-    "name": "Black Student Union",
-    "purposeStatement": "The Black Student Union creates community and supports Black students at Ohio State Mansfield.",
-  },
-  {
-    "campuses": [
-      "Lima",
-    ],
-    "categories": [
-      "Special Interest",
-    ],
-    "name": "Black Student Union",
-    "purposeStatement": "To foster a sense of community for all (minority) students.",
   },
   {
     "campuses": [
@@ -3220,16 +2993,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
   },
   {
     "campuses": [
-      "Marion",
-    ],
-    "categories": [
-      "Special Interest",
-    ],
-    "name": "Buckeye Campaign Against Suicide",
-    "purposeStatement": "Promote mental health by decreasing stigma related to mental illness and suicide prevention through connections with students, education, an...",
-  },
-  {
-    "campuses": [
       "Columbus",
     ],
     "categories": [
@@ -3345,16 +3108,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
     ],
     "name": "Buckeye Exploratarium Club",
     "purposeStatement": "To transform the Arne Slettebak planetarium at OSU into an educational tool outside of the field of astronomy by producing educational shows...",
-  },
-  {
-    "campuses": [
-      "Marion",
-    ],
-    "categories": [
-      "Community Service/Service Learning",
-    ],
-    "name": "Buckeye Food Alliance",
-    "purposeStatement": "The Buckeye Food Alliance makes healthy food available to all students who need it and educate individuals about food insecurity issues and ...",
   },
   {
     "campuses": [
@@ -3606,16 +3359,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
     ],
     "name": "Buckeye Rover Team",
     "purposeStatement": "To design and construct an efficient and competitive rover vehicle in order to compete in the international NASA racing competition. This ve...",
-  },
-  {
-    "campuses": [
-      "Lima",
-    ],
-    "categories": [
-      "Academic/College",
-    ],
-    "name": "Buckeye Scholars",
-    "purposeStatement": "To enhance the academic experience of qualified undergraduate students",
   },
   {
     "campuses": [
@@ -4124,16 +3867,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
   },
   {
     "campuses": [
-      "Newark",
-    ],
-    "categories": [
-      "Community Service/Service Learning",
-    ],
-    "name": "BuckeyeTHON",
-    "purposeStatement": "BuckeyeTHON at Ohio State Newark raises money through an annual dance marathon.",
-  },
-  {
-    "campuses": [
       "Columbus",
     ],
     "categories": [
@@ -4177,16 +3910,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
     ],
     "name": "Business Builders - The Premier Entrepreneurship Club | The Ohio State University",
     "purposeStatement": "Business Builders is the premier Entrepreneurship Club at OSU. Business Builders brings together Ohio State students interested in "Business...",
-  },
-  {
-    "campuses": [
-      "Lima",
-    ],
-    "categories": [
-      "Academic/College",
-    ],
-    "name": "Business Club",
-    "purposeStatement": "To promote the business club for OSU students majoring or interested in internships, jobs, travel geared toward business",
   },
   {
     "campuses": [
@@ -4258,56 +3981,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
   },
   {
     "campuses": [
-      "Wooster",
-    ],
-    "categories": [
-      "Special Interest",
-    ],
-    "name": "Campus Activities Board",
-    "purposeStatement": "CAB is a leadership/professional development and event planning organization.",
-  },
-  {
-    "campuses": [
-      "Lima",
-    ],
-    "categories": [
-      "Special Interest",
-    ],
-    "name": "Campus Activities Board",
-    "purposeStatement": "To plan and implement social and educational programming campus wide through a student board",
-  },
-  {
-    "campuses": [
-      "Newark",
-    ],
-    "categories": [
-      "Special Interest",
-    ],
-    "name": "Campus Activities Board",
-    "purposeStatement": "CAB Newark Campus is responsible for many student, faculty, and staff based events. Most of our events are at little or NO cost to participa...",
-  },
-  {
-    "campuses": [
-      "Mansfield",
-    ],
-    "categories": [
-      "Special Interest",
-    ],
-    "name": "Campus Activities Board - Mansfield",
-    "purposeStatement": "Do you enjoy planning events for others to enjoy? If so, the Campus Activities Board (CAB) is for you. Develop and plan campus events, devel...",
-  },
-  {
-    "campuses": [
-      "Marion",
-    ],
-    "categories": [
-      "Special Interest",
-    ],
-    "name": "Campus Activities Board - Marion",
-    "purposeStatement": "This student club is for any student who is interested in planning and facilitating fun, free, social activities for Marion campus students.",
-  },
-  {
-    "campuses": [
       "Columbus",
     ],
     "categories": [
@@ -4352,16 +4025,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
     ],
     "name": "Campus Outreach",
     "purposeStatement": "A non-denominational college ministry that provides opportunities for students to investigate and grow in their faith, as well as equipping ...",
-  },
-  {
-    "campuses": [
-      "Lima",
-    ],
-    "categories": [
-      "Governance Organizations",
-    ],
-    "name": "Campus Progressive Caucus",
-    "purposeStatement": "To foster education and involvement in electorialpolitics, advocacy and activism among Lima-OSU student body",
   },
   {
     "campuses": [
@@ -4491,16 +4154,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
     ],
     "name": "Center for Cognitive and Behavioral Brain Imaging Student Organization",
     "purposeStatement": "The purpose of this organization is to foster a community of students at The Ohio State University interested in learning and sharing knowle...",
-  },
-  {
-    "campuses": [
-      "Mansfield",
-    ],
-    "categories": [
-      "Religious/Spiritual",
-    ],
-    "name": "Central Ohio Cru",
-    "purposeStatement": "This group of students from all denominations aims to create a community of believers. Through Bible study, prayer, fellowship and outreach,...",
   },
   {
     "campuses": [
@@ -4727,7 +4380,7 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
       "Community Service/Service Learning",
     ],
     "name": "Chimes Junior Class Honorary",
-    "purposeStatement": "The Chimes Junior Class Honorary is an organization of 35 exceptional junior class men and women committed to upholding the principles of sc...",
+    "purposeStatement": "The Chimes Junior Class Honorary is an organization of exceptional junior class men and women committed to upholding the principles of schol...",
   },
   {
     "campuses": [
@@ -4909,16 +4562,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
     ],
     "name": "Christian Medical and Dental Association, Medical Student Chapter",
     "purposeStatement": "CMDA exists to educate, encourage and unite medical students who have interests in Christian ethics and faith in their medical practice.",
-  },
-  {
-    "campuses": [
-      "Marion",
-    ],
-    "categories": [
-      "Religious/Spiritual",
-    ],
-    "name": "Christian Ministry International",
-    "purposeStatement": "Welcomes all students to service, volunteer work, and participation in a Bible study to meet the spiritual needs of Marion campus students.",
   },
   {
     "campuses": [
@@ -5171,21 +4814,10 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
     ],
     "categories": [
       "Technology",
-      "Academic/College",
       "Special Interest",
     ],
     "name": "Collaborative Software Development Club",
     "purposeStatement": "This organization will provide a platform for students to collaborate on software projects independent of the OSU curriculum for the purpose...",
-  },
-  {
-    "campuses": [
-      "Mansfield",
-    ],
-    "categories": [
-      "Special Interest",
-    ],
-    "name": "College Democrats - Mansfield",
-    "purposeStatement": "The College Democrats at The Ohio State University at Mansfield and North Central State College educate and organize students to play a help...",
   },
   {
     "campuses": [
@@ -5426,16 +5058,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
   },
   {
     "campuses": [
-      "Mansfield",
-    ],
-    "categories": [
-      "Special Interest",
-    ],
-    "name": "College Republicans - Mansfield",
-    "purposeStatement": "The mission of the College Republicans at Ohio State Mansfield and NC State College is to promote the involvement and education of students ...",
-  },
-  {
-    "campuses": [
       "Columbus",
     ],
     "categories": [
@@ -5445,16 +5067,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
     ],
     "name": "Collegiate 4-H at The Ohio State University",
     "purposeStatement": "The purpose of Collegiate 4-H is to maintain and increase interest in 4-H and to provide opportunities to develop leadership, wholesome recr...",
-  },
-  {
-    "campuses": [
-      "Newark",
-    ],
-    "categories": [
-      "Special Interest",
-    ],
-    "name": "Collegiate 4-H Club",
-    "purposeStatement": "The Purpose of this organization is to maintain and increase interest in 4-H, develop leadership, provide an opportunity for wholesome recre...",
   },
   {
     "campuses": [
@@ -5479,26 +5091,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
     ],
     "name": "Collegiate Farm Bureau at The Ohio State University",
     "purposeStatement": "The purpose of this organization shall be: i.	To provide support to students who are engaged in the field of agriculture; ii.	To serve as a ...",
-  },
-  {
-    "campuses": [
-      "Wooster",
-    ],
-    "categories": [
-      "Special Interest",
-    ],
-    "name": "Collegiate FFA",
-    "purposeStatement": "Collegiate FFA",
-  },
-  {
-    "campuses": [
-      "Wooster",
-    ],
-    "categories": [
-      "Special Interest",
-    ],
-    "name": "Collegiate Horseman's Association",
-    "purposeStatement": "Collegiate Horseman's Association",
   },
   {
     "campuses": [
@@ -5551,6 +5143,18 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
       "Columbus",
     ],
     "categories": [
+      "Technology",
+      "Special Interest",
+      "Sports and Recreation",
+    ],
+    "name": "Combat Robotics at Ohio State",
+    "purposeStatement": "Combat Robotics at Ohio State (CROS) was established to create a close-knit and welcoming community revolving around fighting robots. The or...",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "categories": [
       "Media, Journalism, and Creative Writing",
       "Creative and Performing Arts",
       "Special Interest",
@@ -5583,16 +5187,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
   },
   {
     "campuses": [
-      "Wooster",
-    ],
-    "categories": [
-      "Community Service/Service Learning",
-    ],
-    "name": "Community Council",
-    "purposeStatement": "The mission of Community Council is to encourage a better social and academic atmosphere within Applewood Village and provide residents with...",
-  },
-  {
-    "campuses": [
       "Columbus",
     ],
     "categories": [
@@ -5615,16 +5209,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
     ],
     "name": "Community of Appalachian Student Leaders",
     "purposeStatement": "To bring together students from the Appalachian regions in order to provide opportunities and allow room for individuals to grow academicall...",
-  },
-  {
-    "campuses": [
-      "Newark",
-    ],
-    "categories": [
-      "Community Service/Service Learning",
-    ],
-    "name": "Community Outreach Committee",
-    "purposeStatement": "The Community Outreach Committee is a group of Central Ohio Technical College and Ohio State Newark students who have a desire to help the l...",
   },
   {
     "campuses": [
@@ -5951,16 +5535,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
   },
   {
     "campuses": [
-      "Wooster",
-    ],
-    "categories": [
-      "Religious/Spiritual",
-    ],
-    "name": "CRU (Campus Crusade for Christ)",
-    "purposeStatement": null,
-  },
-  {
-    "campuses": [
       "Columbus",
     ],
     "categories": [
@@ -6144,36 +5718,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
   },
   {
     "campuses": [
-      "Wooster",
-    ],
-    "categories": [
-      "Special Interest",
-    ],
-    "name": "Dairy Cattle Judging Team",
-    "purposeStatement": "The Ohio State ATI Intercollegiate Dairy Cattle Judging Team competes against other 2-year and post-secondary universities and colleges in t...",
-  },
-  {
-    "campuses": [
-      "Wooster",
-    ],
-    "categories": [
-      "Special Interest",
-    ],
-    "name": "Dairy Club",
-    "purposeStatement": "The Ohio State ATI Dairy Club is a student lead organization based upon the ever-changing dairy industry. Our doors are open to all students...",
-  },
-  {
-    "campuses": [
-      "Lima",
-    ],
-    "categories": [
-      "Special Interest",
-    ],
-    "name": "Dance at Heart Club",
-    "purposeStatement": "To allow students not only be exposed to dance, but also be involved in their community through dance.",
-  },
-  {
-    "campuses": [
       "Columbus",
     ],
     "categories": [
@@ -6267,16 +5811,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
     ],
     "name": "The Deaf-Hearing Club at The Ohio State University",
     "purposeStatement": "To bring together people of all ages and all levels of fluency in American Sign Language, within and outside of The Ohio State University, t...",
-  },
-  {
-    "campuses": [
-      "Newark",
-    ],
-    "categories": [
-      "Academic/College",
-    ],
-    "name": "DECA",
-    "purposeStatement": "DECA prepares emerging leaders and entrepreneurs for careers in marketing, finance, hospitality and management in high schools and colleges ...",
   },
   {
     "campuses": [
@@ -6519,16 +6053,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
     ],
     "name": "Department of East Asian Languages and Literatures Undergraduate Student Organization",
     "purposeStatement": "Cultivating a greater sense of community and belonging amongst DEALL Undergraduate students, professors, and undergraduates interested in Ea...",
-  },
-  {
-    "campuses": [
-      "Newark",
-    ],
-    "categories": [
-      "Academic/College",
-    ],
-    "name": "Der Deutschklub von Ohio State Newark",
-    "purposeStatement": "We are a group of students and faculty who are interested in learning and participating in German language and culture.",
   },
   {
     "campuses": [
@@ -6863,21 +6387,11 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
   },
   {
     "campuses": [
-      "Newark",
-    ],
-    "categories": [
-      "Ethnic/Cultural",
-    ],
-    "name": "Ebonye Horizons",
-    "purposeStatement": "Student Organization that promotes African American Awareness on campus. All are welcome.",
-  },
-  {
-    "campuses": [
       "Columbus",
     ],
     "categories": [
-      "Governance Organizations",
       "Ethnic/Cultural",
+      "Governance Organizations",
       "Academic/College",
     ],
     "name": "Echo Chinese Student Organization",
@@ -6891,7 +6405,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
       "Community Service/Service Learning",
       "Awareness/Activism",
       "Creative and Performing Arts",
-      "Religious/Spiritual",
     ],
     "name": "Eco-Peace",
     "purposeStatement": "Eco-Peace is an Ohio State club that represents the standard of excellence that students feel toward the love of the Earth and their campus...",
@@ -6944,16 +6457,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
     ],
     "name": "EcoSpace Columbus",
     "purposeStatement": "Eco Space is a student run organization with the goal of acting as a "mini environmental protection agency" within the Columbus area and bey...",
-  },
-  {
-    "campuses": [
-      "Lima",
-    ],
-    "categories": [
-      "Academic/College",
-    ],
-    "name": "Education Club",
-    "purposeStatement": "To promote education and new knowledge to students, staff and the community",
   },
   {
     "campuses": [
@@ -7164,16 +6667,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
   },
   {
     "campuses": [
-      "Marion",
-    ],
-    "categories": [
-      "Academic/College",
-    ],
-    "name": "Engineering Club",
-    "purposeStatement": "The Engineering Club's aim is to provide further explanation into the professional field of engineering and give students a glimpse at the d...",
-  },
-  {
-    "campuses": [
       "Columbus",
     ],
     "categories": [
@@ -7373,16 +6866,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
   },
   {
     "campuses": [
-      "Newark",
-    ],
-    "categories": [
-      "Academic/College",
-    ],
-    "name": "Euchre Club",
-    "purposeStatement": "The Euchre club strives to teach students how to play euchre, enrich social involvement and have fun.",
-  },
-  {
-    "campuses": [
       "Columbus",
     ],
     "categories": [
@@ -7487,16 +6970,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
   },
   {
     "campuses": [
-      "Wooster",
-    ],
-    "categories": [
-      "Special Interest",
-    ],
-    "name": "F.R.I.E.N.D.S",
-    "purposeStatement": "To make social connections on campus through the arts and good food.",
-  },
-  {
-    "campuses": [
       "Columbus",
     ],
     "categories": [
@@ -7567,7 +7040,7 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
       "Sports and Recreation",
     ],
     "name": "Falun Dafa Practice Group",
-    "purposeStatement": "Falun Dafa is a self-cultivation practice based on the principles of Truthfulness, Compassion, and Tolerance. There are also five meditative...",
+    "purposeStatement": "Falun Dafa is a self-cultivation practice based on the principles of Truthfulness, Compassion, and Tolerance. The five meditative exercises ...",
   },
   {
     "campuses": [
@@ -7743,7 +7216,7 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
       "Special Interest",
     ],
     "name": "The Fencing Club - Sport Club",
-    "purposeStatement": "The Buckeye Fencing Club exists with the goal of educating students in the Olympic sport of fencing in a safe, fun and social setting.",
+    "purposeStatement": "The Ohio State University Fencing Club exists with the goal of educating students in the Olympic sport of fencing in a safe, fun and social ...",
   },
   {
     "campuses": [
@@ -7869,7 +7342,7 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
       "Technology",
     ],
     "name": "First-Generation Pre-Physician Assistant Platform",
-    "purposeStatement": "Representation matters, and while it is desirable by most to strive to be a flawless Pre-Physician Assistant (PA) undergraduate student and ...",
+    "purposeStatement": "Representation matters, and while it is desirable by most to strive to be a flawless Pre-Physician Assistant (PA), undergraduate student, an...",
   },
   {
     "campuses": [
@@ -7979,10 +7452,10 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
       "Columbus",
     ],
     "categories": [
-      "Awareness/Activism",
       "Academic/College",
       "Special Interest",
       "Ethnic/Cultural",
+      "Awareness/Activism",
     ],
     "name": "Fisher Graduate Women in Business",
     "purposeStatement": "Fisher Graduate Women in Business (FGWIB) is dedicated to supporting and empowering women, advancing gender equity in business, and creating...",
@@ -8170,16 +7643,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
   },
   {
     "campuses": [
-      "Newark",
-    ],
-    "categories": [
-      "Academic/College",
-    ],
-    "name": "Forensic Science Club",
-    "purposeStatement": "The Forensic Science Club Educates students interested in forensic science about the career field and establishes student and professional n...",
-  },
-  {
-    "campuses": [
       "Columbus",
     ],
     "categories": [
@@ -8201,7 +7664,7 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
       "Sports and Recreation",
     ],
     "name": "Formula Buckeyes at The Ohio State University",
-    "purposeStatement": "The Formula Buckeyes is a group of students who design, build, test, develop, and race a formula style open wheel race car. We aim to furthe...",
+    "purposeStatement": "The Formula Buckeyes are a student project team who design, build, and compete a formula-style race car against other universities from arou...",
   },
   {
     "campuses": [
@@ -8315,26 +7778,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
     ],
     "name": "Game Creation Club",
     "purposeStatement": "A student organization dedicated to providing the environment and resources for learning the process of developing video games.  Students an...",
-  },
-  {
-    "campuses": [
-      "Lima",
-    ],
-    "categories": [
-      "Sports and Recreation",
-    ],
-    "name": "Gamers Guild",
-    "purposeStatement": "To bring together like-minded individuals, giving them an open door enviorment that allows them to fully enjoy their time on the Lima Campus",
-  },
-  {
-    "campuses": [
-      "Marion",
-    ],
-    "categories": [
-      "Special Interest",
-    ],
-    "name": "Gaming Guild",
-    "purposeStatement": "This group gathers students together who share a common interest of video and board games for friendly competition on campus.",
   },
   {
     "campuses": [
@@ -8574,16 +8017,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
     ],
     "name": "Global Buckeyes",
     "purposeStatement": "- Provide an inclusive space for both international and domestic student-athletes through activities and events. - Cultivate a conducive lea...",
-  },
-  {
-    "campuses": [
-      "Newark",
-    ],
-    "categories": [
-      "Community Service/Service Learning",
-    ],
-    "name": "Global Community K-5",
-    "purposeStatement": "The purpose of the Global Community K-5 organization is to work to create equal educational opportunities for children around the world, hol...",
   },
   {
     "campuses": [
@@ -8995,16 +8428,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
   },
   {
     "campuses": [
-      "Wooster",
-    ],
-    "categories": [
-      "Special Interest",
-    ],
-    "name": "Greenhouse Club",
-    "purposeStatement": null,
-  },
-  {
-    "campuses": [
       "Columbus",
     ],
     "categories": [
@@ -9103,16 +8526,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
     ],
     "name": "Habitat for Humanity Campus Chapter at The Ohio State University",
     "purposeStatement": "Habitat for Humanity Campus Chapter at The Ohio State University works to reduce substandard housing by connecting OSU students to opportuni...",
-  },
-  {
-    "campuses": [
-      "Newark",
-    ],
-    "categories": [
-      "Community Service/Service Learning",
-    ],
-    "name": "Habitat for Humanity- Collegiate Challenge",
-    "purposeStatement": "The Habitat for Humanity Student Organization is dedicated to the mission of Habitat for Humanity and participates in the annual Collegiate ...",
   },
   {
     "campuses": [
@@ -9276,18 +8689,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
       "Columbus",
     ],
     "categories": [
-      "Community Service/Service Learning",
-      "Academic/College",
-      "Awareness/Activism",
-    ],
-    "name": "Heart for the Unhoused at Ohio State",
-    "purposeStatement": "Supported by Heart for the Unhoused in St. Louis, a 501(c)(3) nonprofit, we are the OSU chapter aiming to improve healthcare in the Columbus...",
-  },
-  {
-    "campuses": [
-      "Columbus",
-    ],
-    "categories": [
       "Media, Journalism, and Creative Writing",
       "Academic/College",
       "Awareness/Activism",
@@ -9365,16 +8766,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
   },
   {
     "campuses": [
-      "Lima",
-    ],
-    "categories": [
-      "Academic/College",
-    ],
-    "name": "History Club",
-    "purposeStatement": "To promote a greater appreciation for history among the OSU student population and fosters careers of under graduate history majors and mino...",
-  },
-  {
-    "campuses": [
       "Columbus",
     ],
     "categories": [
@@ -9431,16 +8822,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
     ],
     "name": "Hong Kong Student Association",
     "purposeStatement": "Our goal is to establish a community among the students who share Cantonese heritage here at the Ohio State University and to help new Hong ...",
-  },
-  {
-    "campuses": [
-      "Wooster",
-    ],
-    "categories": [
-      "Special Interest",
-    ],
-    "name": "Hoof-n-Hide Club",
-    "purposeStatement": "Hoof-n-Hide is an Animal Science based club that will give you the opportunity to experience working with animals, club responsibility, and ...",
   },
   {
     "campuses": [
@@ -10105,16 +9486,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
   },
   {
     "campuses": [
-      "Newark",
-    ],
-    "categories": [
-      "Special Interest",
-    ],
-    "name": "Introspect- Psychology Club",
-    "purposeStatement": "The objectives and purposes of Introspect are to promote, enhance and further develop educational and social achievements and interests in p...",
-  },
-  {
-    "campuses": [
       "Columbus",
     ],
     "categories": [
@@ -10160,17 +9531,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
     ],
     "name": "ISKCON Yoga Circle",
     "purposeStatement": "What you eat is what you become! We associate to explore a part of the widely practiced and most vibrant culture of Bhakti-yoga (called Kris...",
-  },
-  {
-    "campuses": [
-      "Columbus",
-    ],
-    "categories": [
-      "Ethnic/Cultural",
-      "Academic/College",
-    ],
-    "name": "Italian Club",
-    "purposeStatement": "The Italian Club is a social and cultural organization whose purpose is to promote Italian language and culture through activities and event...",
   },
   {
     "campuses": [
@@ -10432,16 +9792,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
     ],
     "name": "The Journal of Undergraduate Research at Ohio State (JUROS) Editorial Board",
     "purposeStatement": "The purpose of the JUROS Editorial Board is to organize and promote The Journal of Undergraduate Research at Ohio State. The JUROS Editorial...",
-  },
-  {
-    "campuses": [
-      "Newark",
-    ],
-    "categories": [
-      "Religious/Spiritual",
-    ],
-    "name": "Journey Campus Ministry",
-    "purposeStatement": "Journey Campus Ministry is a unified body of students dedicated to the search for God's purpose in our lives. This often means that we can n...",
   },
   {
     "campuses": [
@@ -10887,16 +10237,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
   },
   {
     "campuses": [
-      "Wooster",
-    ],
-    "categories": [
-      "Special Interest",
-    ],
-    "name": "Landscape Club",
-    "purposeStatement": null,
-  },
-  {
-    "campuses": [
       "Columbus",
     ],
     "categories": [
@@ -10968,26 +10308,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
   },
   {
     "campuses": [
-      "Newark",
-    ],
-    "categories": [
-      "Academic/College",
-    ],
-    "name": "Laurel Collegiate Society",
-    "purposeStatement": "LCS is the honors and high ability student organization. Students must have a 3.4 GPA or better to actively serve. We have a student lounge ...",
-  },
-  {
-    "campuses": [
-      "Lima",
-    ],
-    "categories": [
-      "Special Interest",
-    ],
-    "name": "The LBGT Club & Allies(LGBTA)",
-    "purposeStatement": "To spread awareness and provide support for LBGT issues and students",
-  },
-  {
-    "campuses": [
       "Columbus",
     ],
     "categories": [
@@ -11056,16 +10376,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
   },
   {
     "campuses": [
-      "Lima",
-    ],
-    "categories": [
-      "Special Interest",
-    ],
-    "name": "Lima Campus Veterans Association",
-    "purposeStatement": "To provide veterans a group providing fellowship for like-minded individuals in order to create a network of successful students and alumni;...",
-  },
-  {
-    "campuses": [
       "Columbus",
     ],
     "categories": [
@@ -11128,18 +10438,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
       "Columbus",
     ],
     "categories": [
-      "Community Service/Service Learning",
-      "Awareness/Activism",
-      "Sports and Recreation",
-    ],
-    "name": "LivingSport",
-    "purposeStatement": "LivingSport is the beginning guide to LiFEsports. Our work will impact the lives of those who need it most. We strive to address the broader...",
-  },
-  {
-    "campuses": [
-      "Columbus",
-    ],
-    "categories": [
       "Academic/College",
     ],
     "name": "The Logistics Association",
@@ -11155,16 +10453,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
     ],
     "name": "The Longboarding Club",
     "purposeStatement": "The Longboarding Club seeks to establish a network among The Ohio State University's longboarding community and to progress the skill levels...",
-  },
-  {
-    "campuses": [
-      "Mansfield",
-    ],
-    "categories": [
-      "Religious/Spiritual",
-    ],
-    "name": "Lost and Found",
-    "purposeStatement": "Lost and Found is a religious student organization at Ohio State Mansfield.",
   },
   {
     "campuses": [
@@ -11352,16 +10640,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
     ],
     "name": "MannMukti at The Ohio State University",
     "purposeStatement": "Our mission is to encourage healthy, open dialogue of South Asian mental health issues in an effort to remove stigma, improve awareness and ...",
-  },
-  {
-    "campuses": [
-      "Wooster",
-    ],
-    "categories": [
-      "Special Interest",
-    ],
-    "name": "MANRRS (Minorities in Agriculture, Natural Resources and Related Sciences)",
-    "purposeStatement": "To promote academic and professional advancement by empowering minorities in the fields in agriculture, natural resourses and related scienc...",
   },
   {
     "campuses": [
@@ -11669,18 +10947,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
       "Columbus",
     ],
     "categories": [
-      "Creative and Performing Arts",
-      "Ethnic/Cultural",
-      "Special Interest",
-    ],
-    "name": "MeshugaNotes",
-    "purposeStatement": "The MeshugaNotes is Ohio State's first and only co-ed Jewish acappella singing group. We are devoted to learning, arranging, and performing ...",
-  },
-  {
-    "campuses": [
-      "Columbus",
-    ],
-    "categories": [
       "Media, Journalism, and Creative Writing",
       "Academic/College",
       "Special Interest",
@@ -11934,16 +11200,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
   },
   {
     "campuses": [
-      "Marion",
-    ],
-    "categories": [
-      "Special Interest",
-    ],
-    "name": "Moccasins Club",
-    "purposeStatement": "Moccasins is for students who are passionate about taking care of the enviroment through a variety of sustainability practices and creating ...",
-  },
-  {
-    "campuses": [
       "Columbus",
     ],
     "categories": [
@@ -12019,7 +11275,7 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
       "Sports and Recreation",
     ],
     "name": "Momentum Contemporary Ballet",
-    "purposeStatement": "Momentum Contemporary Ballet allows students to continue ballet training through weekly ballet classes and provides opportunities to choreog...",
+    "purposeStatement": "Momentum Contemporary Ballet makes ballet and contemporary dance more accessible and inclusive by offering weekly classes that enable all st...",
   },
   {
     "campuses": [
@@ -12284,17 +11540,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
   },
   {
     "campuses": [
-      "Mansfield",
-    ],
-    "categories": [
-      "Academic/College",
-      "Honoraries/Honor Societies",
-    ],
-    "name": "Music Club - Mansfield",
-    "purposeStatement": "To promote group singing and other forms of vocal music on campus",
-  },
-  {
-    "campuses": [
       "Columbus",
     ],
     "categories": [
@@ -12342,26 +11587,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
     ],
     "name": "Muslim Pharmacy Student Association",
     "purposeStatement": "Dedicated to bridging the pharmacy practice with the Muslim community",
-  },
-  {
-    "campuses": [
-      "Mansfield",
-    ],
-    "categories": [
-      "Ethnic/Cultural",
-    ],
-    "name": "Muslim Student Association",
-    "purposeStatement": "The Muslim Student Association at Mansfield supports the interests of Muslim students on campus.",
-  },
-  {
-    "campuses": [
-      "Newark",
-    ],
-    "categories": [
-      "Religious/Spiritual",
-    ],
-    "name": "Muslim Student Organization",
-    "purposeStatement": "The Purpose of the MSA is to : Get students involved with campus events; Unite all students who are willing to share and learn more about ea...",
   },
   {
     "campuses": [
@@ -12436,16 +11661,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
     ],
     "name": "The Mycology Club at The Ohio State University",
     "purposeStatement": "We are here to explore the many aspects of the world of Mycology. We want to give students the opportunity to explore the fascinating world ...",
-  },
-  {
-    "campuses": [
-      "Mansfield",
-    ],
-    "categories": [
-      "Community Service/Service Learning",
-    ],
-    "name": "NAMI on Campus",
-    "purposeStatement": "NAMI on Campus helps students at Ohio State Mansfield connect with the work of the National Alliance on Mental Illness.",
   },
   {
     "campuses": [
@@ -12592,9 +11807,9 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
       "Columbus",
     ],
     "categories": [
-      "Ethnic/Cultural",
       "Academic/College",
       "Community Service/Service Learning",
+      "Ethnic/Cultural",
     ],
     "name": "National Society of Black Engineers",
     "purposeStatement": "NSBE's mission is "to increase the number of culturally responsible Black engineers who excel academically, succeed professionally and posit...",
@@ -12621,17 +11836,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
     ],
     "name": "National Society of Leadership and Success",
     "purposeStatement": "The NSLS is a national organization that helps people discover and achieve their goals. The NSLS offers life-changing lectures from the nati...",
-  },
-  {
-    "campuses": [
-      "Mansfield",
-    ],
-    "categories": [
-      "Academic/College",
-      "Honoraries/Honor Societies",
-    ],
-    "name": "National Society of Leadership and Success/Sigma Alpha Pi - Mansfield",
-    "purposeStatement": "The Society is an organization that helps people discover and achieve their goals. The Society offers life-changing lectures from the nation...",
   },
   {
     "campuses": [
@@ -12692,16 +11896,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
   },
   {
     "campuses": [
-      "Lima",
-    ],
-    "categories": [
-      "Special Interest",
-    ],
-    "name": "Nerf Club",
-    "purposeStatement": "To be involved with fun activites that relieve stress",
-  },
-  {
-    "campuses": [
       "Columbus",
     ],
     "categories": [
@@ -12714,23 +11908,14 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
   },
   {
     "campuses": [
-      "Newark",
-    ],
-    "categories": [
-      "Sports and Recreation",
-    ],
-    "name": "Net Sports",
-    "purposeStatement": "Recreational club that teaches the rules and principles of Ping Pong, volleyball and badminton, has fun through competition, puts on social ...",
-  },
-  {
-    "campuses": [
-      "Lima",
+      "Columbus",
     ],
     "categories": [
       "Academic/College",
+      "Special Interest",
     ],
-    "name": "Neurodiversity/ADHA Support",
-    "purposeStatement": "To provide resources, support and inforamtion to students with ADHA and other learning disabilities",
+    "name": "The NeuroLaw Group",
+    "purposeStatement": "The NeuroLaw Group is an interdisciplinary club for undergraduates that explores the intersections of neuroscience in law, ethics, policy, a...",
   },
   {
     "campuses": [
@@ -12740,8 +11925,8 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
       "Academic/College",
       "Special Interest",
     ],
-    "name": "The NeuroLaw Group",
-    "purposeStatement": "The NeuroLaw Group is an interdisciplinary club for undergraduates that explores the intersections of neuroscience in law, ethics, policy, a...",
+    "name": "Neuropsychology Network",
+    "purposeStatement": "The Neuropsychology Network aims to connect graduate students interested in careers in clinical neuropsychology in order to share informatio...",
   },
   {
     "campuses": [
@@ -12824,26 +12009,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
     ],
     "name": "The New Music Collective",
     "purposeStatement": "The mission of The New Music Collective is to engage in all aspects of the performance of a wide variety of Twentieth and Twenty-First Centu...",
-  },
-  {
-    "campuses": [
-      "Newark",
-    ],
-    "categories": [
-      "Academic/College",
-    ],
-    "name": "Newark International Language Club",
-    "purposeStatement": null,
-  },
-  {
-    "campuses": [
-      "Lima",
-    ],
-    "categories": [
-      "Religious/Spiritual",
-    ],
-    "name": "Newman Student Outreach",
-    "purposeStatement": "To provide students with the opportunity to explore their faith in Jesus Christ. Students will experience trips, volunteer adventures, event...",
   },
   {
     "campuses": [
@@ -13120,16 +12285,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
   },
   {
     "campuses": [
-      "Lima",
-    ],
-    "categories": [
-      "Governance Organizations",
-    ],
-    "name": "Ohio State at Lima Student Senate",
-    "purposeStatement": "To promote the mission of the Ohio State University Lima Student Senate  -  to represent the student perspective to University Admissions, a...",
-  },
-  {
-    "campuses": [
       "Columbus",
     ],
     "categories": [
@@ -13138,18 +12293,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
     ],
     "name": "The Ohio State Business Law Journal",
     "purposeStatement": "The Ohio State Business Law Journal (“Journal") is a student-managed publication of scholarly research and commentary exploring the legal is...",
-  },
-  {
-    "campuses": [
-      "Columbus",
-    ],
-    "categories": [
-      "Technology",
-      "Special Interest",
-      "Sports and Recreation",
-    ],
-    "name": "Ohio State Combat Robotics Organization",
-    "purposeStatement": "Combat Robotics at Ohio State (CROS) was established to create a close-knit and welcoming community revolving around fighting robots. The or...",
   },
   {
     "campuses": [
@@ -13183,16 +12326,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
     ],
     "name": "Ohio State Law Journal",
     "purposeStatement": "Started in 1935, the Ohio State Law Journal is a nationally renowned publication of the highest quality legal scholarship, managed and staff...",
-  },
-  {
-    "campuses": [
-      "Marion",
-    ],
-    "categories": [
-      "Special Interest",
-    ],
-    "name": "Ohio State Marion Science Club",
-    "purposeStatement": "The Ohio State Marion Science Club meets to discuss and facilitate interest in science and provide opportunities for students to participate...",
   },
   {
     "campuses": [
@@ -13248,16 +12381,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
     ],
     "name": "Ohio State Women's Basketball Club - Sport Club",
     "purposeStatement": "The Sport Club program is designed to serve individual interests in different sports and recreational activities. Participation in the progr...",
-  },
-  {
-    "campuses": [
-      "Newark",
-    ],
-    "categories": [
-      "Sports and Recreation",
-    ],
-    "name": "Ohio State/COTC Intramurals",
-    "purposeStatement": "Intramural sports provide an opportunity for students of all skill levels to stay active and compete weekly with other students. Each year, ...",
   },
   {
     "campuses": [
@@ -13455,16 +12578,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
     ],
     "name": "Open Source Club",
     "purposeStatement": "In a world where technology increases its reach into our personal lives, encroaching on our privacy, accessibility, and even our democracy, ...",
-  },
-  {
-    "campuses": [
-      "Lima",
-    ],
-    "categories": [
-      "Special Interest",
-    ],
-    "name": "Open Source Club at Lima Campus, OSU",
-    "purposeStatement": "To raise awareness of, provide us of and contribute to open source solutions, in campus and community.",
   },
   {
     "campuses": [
@@ -13709,16 +12822,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
   },
   {
     "campuses": [
-      "Lima",
-    ],
-    "categories": [
-      "Special Interest",
-    ],
-    "name": "OSU Lima Meme Team",
-    "purposeStatement": "To keep students in good-humored states of mind throughout the occasionally stressfull college life.",
-  },
-  {
-    "campuses": [
       "Columbus",
     ],
     "categories": [
@@ -13803,26 +12906,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
     ],
     "name": "OutLaws at The Ohio State University Moritz College of Law",
     "purposeStatement": "The OutLaws are an organization of students, faculty, and staff of The Ohio State University Moritz College of Law. The Association promotes...",
-  },
-  {
-    "campuses": [
-      "Mansfield",
-    ],
-    "categories": [
-      "Ethnic/Cultural",
-    ],
-    "name": "OutLoud - Mansfield",
-    "purposeStatement": "OutLoud provides an anonymous, healthy, and safe place for the students of Ohio State Mansfield and NC State who are discovering the sexual ...",
-  },
-  {
-    "campuses": [
-      "Newark",
-    ],
-    "categories": [
-      "Creative and Performing Arts",
-    ],
-    "name": "Outside The Box",
-    "purposeStatement": "The OSU/COTC Newark Campus Improv Troupe. Learn various formats of improv and perform once or twice throughout the semester.",
   },
   {
     "campuses": [
@@ -14421,26 +13504,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
   },
   {
     "campuses": [
-      "Newark",
-    ],
-    "categories": [
-      "Academic/College",
-    ],
-    "name": "Phi Theta Kappa",
-    "purposeStatement": "COTC's Chapter of the international two year honorary that seeks to recognize academic achievement of college students and to provide opport...",
-  },
-  {
-    "campuses": [
-      "Wooster",
-    ],
-    "categories": [
-      "Honoraries/Honor Societies",
-    ],
-    "name": "Phi Theta Kappa",
-    "purposeStatement": "Phi Theta Kappa is the international honor society for students at two-year institutions.",
-  },
-  {
-    "campuses": [
       "Columbus",
     ],
     "categories": [
@@ -14842,23 +13905,10 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
       "Columbus",
     ],
     "categories": [
-      "Community Service/Service Learning",
       "Academic/College",
-      "Awareness/Activism",
-      "Special Interest",
-    ],
-    "name": "Pre-Health Constellation",
-    "purposeStatement": "The purpose of this organization is to unite anyone interested in any health-related field. This will be done by organizing volunteering opp...",
-  },
-  {
-    "campuses": [
-      "Columbus",
-    ],
-    "categories": [
-      "Community Service/Service Learning",
       "Awareness/Activism",
       "Ethnic/Cultural",
-      "Academic/College",
+      "Community Service/Service Learning",
     ],
     "name": "Pre-Med Asian Pacific American Medical Student Association",
     "purposeStatement": "The Asian Pacific American Medical Students Association (APAMSA) is a national organization of medical and pre-medical students committed to...",
@@ -14898,16 +13948,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
   },
   {
     "campuses": [
-      "Wooster",
-    ],
-    "categories": [
-      "Academic/College",
-    ],
-    "name": "Pre-Veterinary Club",
-    "purposeStatement": "Pre-Vet Club at ATI was founded in 2017. The club’s purpose is to provide opportunities to learn more about the veterinary profession, gain ...",
-  },
-  {
-    "campuses": [
       "Columbus",
     ],
     "categories": [
@@ -14941,18 +13981,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
     ],
     "name": "Prescription Fitness",
     "purposeStatement": "Prescription Fitness (Rx Fitness) is a non-profit organization which aims to promote an inclusive culture of optimal health, fitness, and nu...",
-  },
-  {
-    "campuses": [
-      "Columbus",
-    ],
-    "categories": [
-      "Awareness/Activism",
-      "Special Interest",
-      "Ethnic/Cultural",
-    ],
-    "name": "Pride",
-    "purposeStatement": "We envision a national and local community where gay, lesbian, bisexual, transgender, and queer students can be open, honest and safe at hom...",
   },
   {
     "campuses": [
@@ -15039,16 +14067,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
   },
   {
     "campuses": [
-      "Newark",
-    ],
-    "categories": [
-      "Academic/College",
-    ],
-    "name": "Psi Chi",
-    "purposeStatement": "Psi Chi is the International Honor Society in Psychology, founded in 1929 for the purposes of encouraging, stimulating, and maintaining exce...",
-  },
-  {
-    "campuses": [
       "Columbus",
     ],
     "categories": [
@@ -15070,16 +14088,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
     ],
     "name": "Psi Omega Psi Dental Fraternity",
     "purposeStatement": "The objectives of this Fraternity are to maintain and advance the high standards of dentistry by instilling in its members the spirit of fra...",
-  },
-  {
-    "campuses": [
-      "Lima",
-    ],
-    "categories": [
-      "Academic/College",
-    ],
-    "name": "Psych Club",
-    "purposeStatement": "To provide the Psych Club to offer opportunities to interact with faculty and students",
   },
   {
     "campuses": [
@@ -15141,6 +14149,18 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
     ],
     "name": "Psychology Graduate Students Organization",
     "purposeStatement": "The Psychology Graduate Student Association aims to provide opportunities for graduate students to both interact with other graduate student...",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "categories": [
+      "Awareness/Activism",
+      "Academic/College",
+      "Ethnic/Cultural",
+    ],
+    "name": "Public Affairs Multicultural Student Organization",
+    "purposeStatement": "The purpose of the Public Affairs Minority Student Organization is to foster a safe, open, and welcoming community within the John Glenn Col...",
   },
   {
     "campuses": [
@@ -15253,6 +14273,18 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
       "Columbus",
     ],
     "categories": [
+      "Academic/College",
+      "Special Interest",
+      "Technology",
+    ],
+    "name": "The Quantum Club at Ohio State",
+    "purposeStatement": "The OSU Quantum Club aims to create an inclusive and engaging community focused on the exploration of quantum information science and basic ...",
+  },
+  {
+    "campuses": [
+      "Columbus",
+    ],
+    "categories": [
       "Special Interest",
       "Sports and Recreation",
       "Technology",
@@ -15342,16 +14374,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
     ],
     "name": "Radiation Oncology Interest Group",
     "purposeStatement": "The purpose of our organization is as follows: 1) to introduce the field of radiation oncology to students of The Ohio State University Coll...",
-  },
-  {
-    "campuses": [
-      "Newark",
-    ],
-    "categories": [
-      "Academic/College",
-    ],
-    "name": "Radiologic Technology Student Organization",
-    "purposeStatement": "Organization to promote professionalism and involvement within professional societies/organizations.",
   },
   {
     "campuses": [
@@ -15814,16 +14836,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
   },
   {
     "campuses": [
-      "Wooster",
-    ],
-    "categories": [
-      "Special Interest",
-    ],
-    "name": "SAIFD (Anderson Student Chapter of The American Institute of Floral Designers",
-    "purposeStatement": null,
-  },
-  {
-    "campuses": [
       "Columbus",
     ],
     "categories": [
@@ -15993,7 +15005,7 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
       "Sports and Recreation",
     ],
     "name": "Scarlet and Guard",
-    "purposeStatement": "Our purpose is to bring people together and feel part of a nurturing community through the art of spinning. Color guard is a sport and perfo...",
+    "purposeStatement": "Scarlet & Guard seeks to bring students together through the art of spinning. We want to help beginners, intermediates, and experts feel exc...",
   },
   {
     "campuses": [
@@ -16703,26 +15715,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
   },
   {
     "campuses": [
-      "Marion",
-    ],
-    "categories": [
-      "Community Service/Service Learning",
-    ],
-    "name": "Social Work Club",
-    "purposeStatement": "This student club is for pre-social work majors who are looking to learn and explore more about this profession as well as ways to embrace d...",
-  },
-  {
-    "campuses": [
-      "Lima",
-    ],
-    "categories": [
-      "Community Service/Service Learning",
-    ],
-    "name": "Social Work Club",
-    "purposeStatement": "To provide and promote opportunities within the field of Social Work",
-  },
-  {
-    "campuses": [
       "Columbus",
     ],
     "categories": [
@@ -16787,16 +15779,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
     ],
     "name": "Society of Asian Scientists and Engineers",
     "purposeStatement": "SASE as an organization strives to achieve 3 goals: 1)  Preparing students for success and leadership globally 2) Raising cultural awareness...",
-  },
-  {
-    "campuses": [
-      "Newark",
-    ],
-    "categories": [
-      "Academic/College",
-    ],
-    "name": "Society of Engineering Technology",
-    "purposeStatement": "Society of Engineering Technology (SET) - a student club at COTC and OSU Newark. This organization is made up of undergraduate and graduate ...",
   },
   {
     "campuses": [
@@ -17359,16 +16341,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
   },
   {
     "campuses": [
-      "Wooster",
-    ],
-    "categories": [
-      "Special Interest",
-    ],
-    "name": "Student Activities Council",
-    "purposeStatement": "Student Activities Council is a leadership/professional development and event planning organization. Members attend bi-weekly meetings where...",
-  },
-  {
-    "campuses": [
       "Columbus",
     ],
     "categories": [
@@ -17581,16 +16553,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
   },
   {
     "campuses": [
-      "Newark",
-    ],
-    "categories": [
-      "Ethnic/Cultural",
-    ],
-    "name": "Student Cultural Council",
-    "purposeStatement": "The objectives and purposes of the Student Cultural Council (SCC) are to support designated programs offered by the Office of Multi-Cultural...",
-  },
-  {
-    "campuses": [
       "Columbus",
     ],
     "categories": [
@@ -17610,14 +16572,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
     ],
     "name": "Student Financial Planning Association at The Ohio State University®",
     "purposeStatement": "The purpose of the Student Financial Planning Association is to provide an environment that allows for the development and enhancement of sk...",
-  },
-  {
-    "campuses": [
-      "Newark",
-    ],
-    "categories": null,
-    "name": "Student Government",
-    "purposeStatement": "Student Government",
   },
   {
     "campuses": [
@@ -17651,16 +16605,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
     ],
     "name": "Student Leadership Advocates",
     "purposeStatement": "The Student Leadership Advocates are a group of Ohio State student leaders who work together to positively impact and empower student life a...",
-  },
-  {
-    "campuses": [
-      "Wooster",
-    ],
-    "categories": [
-      "Special Interest",
-    ],
-    "name": "Student Leadership Council",
-    "purposeStatement": "To serve as a representative group of the Ohio State ATI student body and communicate ideas to enhance the student experience.",
   },
   {
     "campuses": [
@@ -17825,26 +16769,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
   },
   {
     "campuses": [
-      "Lima",
-    ],
-    "categories": [
-      "Community Service/Service Learning",
-    ],
-    "name": "Student United Way Club",
-    "purposeStatement": "To provide community service to Allen County",
-  },
-  {
-    "campuses": [
-      "Mansfield",
-    ],
-    "categories": [
-      "Community Service/Service Learning",
-    ],
-    "name": "Student United Way Club - Mansfield",
-    "purposeStatement": "The group follows the mission under United Way. Improve the lives and strengthening communities.",
-  },
-  {
-    "campuses": [
       "Columbus",
     ],
     "categories": [
@@ -17855,17 +16779,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
     ],
     "name": "Student Veterans Association at The Ohio State University",
     "purposeStatement": "SVAOSU is the premier student organization leading service, research, programs, and advocacy for veterans at the Ohio State University. The ...",
-  },
-  {
-    "campuses": [
-      "Mansfield",
-    ],
-    "categories": [
-      "Special Interest",
-      "Ethnic/Cultural",
-    ],
-    "name": "Student Veterans Club - Mansfield",
-    "purposeStatement": "The purpose of this organization is to provide military veterans and their families with the resources and support necessary to achieve thei...",
   },
   {
     "campuses": [
@@ -18297,16 +17210,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
   },
   {
     "campuses": [
-      "Newark",
-    ],
-    "categories": [
-      "Sports and Recreation",
-    ],
-    "name": "Tabletop and Roleplaying Gaming Club",
-    "purposeStatement": "The TRG Club seeks to engage young peoplein team building, to creatively cause and solve problems in a safe environment, to provide a safe, ...",
-  },
-  {
-    "campuses": [
       "Columbus",
     ],
     "categories": [
@@ -18555,17 +17458,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
   },
   {
     "campuses": [
-      "Mansfield",
-    ],
-    "categories": [
-      "Academic/College",
-      "Honoraries/Honor Societies",
-    ],
-    "name": "Theatre Club",
-    "purposeStatement": "The Mansfield Campus Theatre Club supports the arts on campus and in the Mansfield Community.",
-  },
-  {
-    "campuses": [
       "Columbus",
     ],
     "categories": [
@@ -18645,16 +17537,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
   },
   {
     "campuses": [
-      "Newark",
-    ],
-    "categories": [
-      "Creative and Performing Arts",
-    ],
-    "name": "Titonix",
-    "purposeStatement": "Musical Performing Group",
-  },
-  {
-    "campuses": [
       "Columbus",
     ],
     "categories": [
@@ -18673,16 +17555,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
     ],
     "name": "Torres, Drackett, Lawrence Community Council",
     "purposeStatement": "The purpose of Torres, Drackett, Lawrence CC is to provide for the social, recreational, informational, educational diversity, wellness and ...",
-  },
-  {
-    "campuses": [
-      "Wooster",
-    ],
-    "categories": [
-      "Special Interest",
-    ],
-    "name": "TOSSS (The Ohio Student Service Society)",
-    "purposeStatement": null,
   },
   {
     "campuses": [
@@ -18788,16 +17660,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
     ],
     "name": "True Crime Club at Ohio State",
     "purposeStatement": "The purpose of this organization shall be to provide an engaging environment for both students and community members to discuss true crime p...",
-  },
-  {
-    "campuses": [
-      "Wooster",
-    ],
-    "categories": [
-      "Special Interest",
-    ],
-    "name": "Turf Club",
-    "purposeStatement": null,
   },
   {
     "campuses": [
@@ -19012,6 +17874,7 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
     "categories": [
       "Ethnic/Cultural",
       "Academic/College",
+      "Special Interest",
     ],
     "name": "Undergraduate Black Law Student Association",
     "purposeStatement": "The purpose of the Undergraduate Black Law Student Association is to cultivate and foster the needs and interests of the diverse pre-law com...",
@@ -19108,16 +17971,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
     ],
     "name": "Undergraduate Student Government",
     "purposeStatement": "Wherein students have both the right and the obligation to guide their university, and in the belief that a democratic student government is...",
-  },
-  {
-    "campuses": [
-      "Marion",
-    ],
-    "categories": [
-      "Governance Organizations",
-    ],
-    "name": "Undergraduate Student Government",
-    "purposeStatement": "The Undergraduate Student Government serves the administration by offering an undergraduate perspective in matters of campus policy, student...",
   },
   {
     "campuses": [
@@ -19466,16 +18319,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
   },
   {
     "campuses": [
-      "Newark",
-    ],
-    "categories": [
-      "Sports and Recreation",
-    ],
-    "name": "Video Game Club",
-    "purposeStatement": "The Video Game Club seeks provide a space for students who enjoy gamin across various types of games and consoles",
-  },
-  {
-    "campuses": [
       "Columbus",
     ],
     "categories": [
@@ -19519,16 +18362,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
   },
   {
     "campuses": [
-      "Newark",
-    ],
-    "categories": [
-      "Sports and Recreation",
-    ],
-    "name": "Vinyl Record Club",
-    "purposeStatement": "The Vinyl Record Club is a group of students who appreciate the medium of Vinyl Records, teach students how to use a record player, how to c...",
-  },
-  {
-    "campuses": [
       "Columbus",
     ],
     "categories": [
@@ -19538,16 +18371,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
     ],
     "name": "Virtual Reality Flight Simulation at The Ohio State University",
     "purposeStatement": "The purpose of this organization is to create, provide, and maintain the equipment necessary to supplement student flight training with virt...",
-  },
-  {
-    "campuses": [
-      "Newark",
-    ],
-    "categories": [
-      "Ethnic/Cultural",
-    ],
-    "name": "Viva Cultura",
-    "purposeStatement": "The purpose of Viva Cultural is to bring awareness to Hispanic and Latino cultures, educate on issues such as immigration, bring the Newark ...",
   },
   {
     "campuses": [
@@ -19654,7 +18477,6 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
     ],
     "categories": [
       "Sports and Recreation",
-      "Community Service/Service Learning",
       "Special Interest",
     ],
     "name": "Water Polo - Women's - Sport Club",
@@ -19776,7 +18598,7 @@ exports[`The getStudentOrgs utility function (currently static) > returns an arr
       "Special Interest",
     ],
     "name": "Women and Gender Minorities in Physics",
-    "purposeStatement": "The purpose of the SWiP is to promote involvement of, career and academic development for, and sense of community among the graduate and und...",
+    "purposeStatement": "The purpose of the WaGMiP is to promote involvement of, career and academic development for, and sense of community among the graduate and u...",
   },
   {
     "campuses": [

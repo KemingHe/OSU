@@ -1,5 +1,26 @@
 # Changelog
 
+## [3.1.0](https://github.com/KemingHe/OSU/compare/v3.0.0...v3.1.0) (2024-09-21)
+
+
+### Features
+
+* **src/index.ts:** added export of the research posting async accessor module ([e249410](https://github.com/KemingHe/OSU/commit/e24941093cfa1d79b03ad805326469d1007ca495))
+
+## [3.0.0](https://github.com/KemingHe/OSU/compare/v2.0.2...v3.0.0) (2024-09-21)
+
+
+### ⚠ BREAKING CHANGES
+
+* **src/researchpostings/:** package now requires node 18 and up due to change in compilation config to avoid
+production dependency compatibility issues
+
+### Features
+
+* **src/researchpostings/:** added research postings async access method ([016abdf](https://github.com/KemingHe/OSU/commit/016abdf9263d5e6c82a00c9a109860e67657d1f0))
+
+## [2.0.2](https://github.com/KemingHe/OSU/compare/v2.0.1...v2.0.2) (2024-09-21)
+
 ## [2.0.1](https://github.com/KemingHe/OSU/compare/v2.0.0...v2.0.1) (2024-08-29)
 
 ## [2.0.0](https://github.com/KemingHe/OSU/compare/v1.1.1...v2.0.0) (2024-08-29)

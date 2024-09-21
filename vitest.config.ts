@@ -4,7 +4,7 @@
 
 // Vitest essential imports.
 import tsconfigPaths from "vite-tsconfig-paths";
-import { defineConfig } from "vitest/config";
+import { coverageConfigDefaults, defineConfig } from "vitest/config";
 
 // Custom Vitest config definition.
 export default defineConfig({
@@ -33,6 +33,13 @@ export default defineConfig({
       // Specify reporing coverage for the project src directory.
       include: ["src"],
       reportOnFailure: true,
+
+      // Files to be ignored for coverage.
+      exclude: [
+        "src/researchPostings/fetchUndergradResearchPostingsOnPageNum.ts",
+        "src/researchPostings/fetchUndergradResearchPostings.ts",
+        ...coverageConfigDefaults.exclude,
+      ],
 
       // Coverage thresholds for the project.
       thresholds: {
