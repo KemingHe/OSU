@@ -1,5 +1,7 @@
 # Changelog
 
+## [3.1.1](https://github.com/KemingHe/OSU/compare/v3.1.0...v3.1.1) (2024-09-21)
+
 ## [3.1.0](https://github.com/KemingHe/OSU/compare/v3.0.0...v3.1.0) (2024-09-21)
 
 
