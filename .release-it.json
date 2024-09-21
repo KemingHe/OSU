@@ -2,16 +2,13 @@
   "verbose": 2,
   "hooks": {
     "before:init": [
-      "echo",
-      "echo 'As post-commit standard procedure, begin release process...'"
+      "echo -e '\\033[0;36m\nAs post-commit standard procedure, begin release process...\\033[0m'"
     ],
     "after:bump": [
-      "echo",
-      "echo 'Successfully bumped to version: v${ version }; now generating CHANGELOG.md...'"
+      "echo -e '\\033[0;33m\nSuccessfully bumped to version: v${ version }; now generating CHANGELOG.md...\\033[0m'"
     ],
     "after:release": [
-      "echo",
-      "echo 'New release project: ${ name }, version: v${ version } is available to be push.'"
+      "echo -e '\\033[0;32m\nNew release project: ${ name }, version: v${ version } is available to be push.\\033[0m'"
     ]
   },
   "git": {

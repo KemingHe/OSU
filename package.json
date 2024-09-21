@@ -55,25 +55,25 @@
     "zod": "^3.23.8"
   },
   "devDependencies": {
-    "@biomejs/biome": "^1.8.3",
-    "@release-it/conventional-changelog": "^8.0.1",
+    "@biomejs/biome": "^1.9.2",
+    "@release-it/conventional-changelog": "^8.0.2",
     "@types/fs-extra": "^11.0.4",
     "@types/jsdom": "^21.1.7",
     "@types/mock-fs": "^4.13.4",
-    "@types/node": "^22.5.1",
-    "@vitest/coverage-v8": "^2.0.5",
+    "@types/node": "^22.5.5",
+    "@vitest/coverage-v8": "^2.1.1",
     "commitizen": "^4.3.0",
     "csv-parser": "^3.0.0",
     "cz-conventional-changelog": "^3.3.0",
     "fs-extra": "^11.2.0",
-    "husky": "^9.1.5",
+    "husky": "^9.1.6",
     "mock-fs": "^5.2.0",
     "release-it": "^17.6.0",
-    "tsup": "^8.2.4",
-    "tsx": "^4.19.0",
-    "typescript": "^5.5.4",
+    "tsup": "^8.3.0",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.2",
     "vite-tsconfig-paths": "^4.3.2",
-    "vitest": "^2.0.5"
+    "vitest": "^2.1.1"
   },
   "engines": {
     "node": ">=14"
@@ -87,5 +87,5 @@
     "x64",
     "arm64"
   ],
-  "packageManager": "pnpm@9.9.0+sha512.60c18acd138bff695d339be6ad13f7e936eea6745660d4cc4a776d5247c540d0edee1a563695c183a66eb917ef88f2b4feb1fc25f32a7adcadc7aaf3438e99c1"
+  "packageManager": "pnpm@9.11.0+sha512.0a203ffaed5a3f63242cd064c8fb5892366c103e328079318f78062f24ea8c9d50bc6a47aa3567cabefd824d170e78fa2745ed1f16b132e16436146b7688f19b"
 }

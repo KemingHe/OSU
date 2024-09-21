@@ -1,4 +1,4 @@
-// ./src/utils/getUndergradMajors.ts
+// ./src/undergradMajors/getUndergradMajors.ts
 //
 // Utility functions to retrieve undergraduate major data.
 

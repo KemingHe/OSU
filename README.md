@@ -193,6 +193,26 @@ export type StudentOrg = z.infer<typeof StudentOrgSchema>;
 export type UndergradMajor = z.infer<typeof UndergradMajorSchema>;
 ```
 
+### `ResearchPosting` Type
+
+```typescript path=src/schemas/ResearchPosting.ts
+/**
+ * TypeScript type inferred from the `ResearchPosting` Zod schema.
+ *
+ * This type represents the structure of a research posting object as defined by the `ResearchPosting` schema.
+ *
+ * @typedef {Object} ResearchPosting
+ * @property {string} title - Title of the research posting, represented by a non-empty string.
+ * @property {string} link - URL linking to the research posting, represented by a valid URL string.
+ * @property {string | null} applicationDeadline - Application deadline, represented by a non-empty string, or null if not applicable or missing data.
+ * @property {string | null} department - Department offering the research posting, represented by a non-empty string, or null if not applicable or missing data.
+ * @property {string | null} publicOrPrivate - Indicates whether the posting is public or private, represented by a non-empty string, or null if not applicable or missing data.
+ * @property {string | null} hoursPerWeek - Number of hours per week required, represented by a non-empty string, or null if not applicable or missing data.
+ * @property {string[] | null} compensationTypes - Types of compensation offered, represented by a non-empty array of non-empty strings, or null if not applicable or missing data.
+ */
+export type ResearchPosting = z.infer<typeof ResearchPostingSchema>;
+```
+
 ## :key: License
 
 Usage indicates agreement with the **MIT** license. [More Info.](https://mit-license.org/)

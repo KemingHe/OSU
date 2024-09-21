@@ -1,6 +1,6 @@
-// ./src/utils/getUndergradMajors.test.ts
+// ./src/undergradMajors/getUndergradMajors.test.ts
 //
-// Unittests for the getUndergradMajors utility module.
+// Unittests for the getUndergradMajors module.
 
 // Vitest essential imports.
 import { describe, expect, it } from "vitest";
@@ -12,7 +12,7 @@ import {
 } from "@src/schemas/UndergradMajor";
 
 // Testing module imports.
-import { getUndergradMajors } from "@src/utils/getUndergradMajors";
+import { getUndergradMajors } from "@src/undergradMajors/getUndergradMajors";
 
 // -----------------------------------------------------------------------------
 // Test suite for the getUndergradMajors utility function.

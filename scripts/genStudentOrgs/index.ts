@@ -12,7 +12,7 @@ import { StudentOrgSchema } from "@src/schemas/StudentOrg";
 export const options: CSV2TSOptions =
   // biome-ignore format: added alignment for clarity.
   {
-    inFilePath      : "data/allStudentOrgs08292024.csv",
+    inFilePath      : "data/allStudentOrgs09212024.csv",
     inFileCSVHeaders: ["name", "purposeStatement", "affiliation"],
     inFileSchema    : RawStudentOrgSchema,
     middleFunction  : sanitizeStudentOrgs,

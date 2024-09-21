@@ -1,6 +1,6 @@
-// ./src/utils/getStudentOrgs.test.ts
+// ./src/studentOrgs/getStudentOrgs.test.ts
 //
-// Unittests for the getStudentOrgs utility module.
+// Unittests for the getStudentOrgs module.
 
 // Vitest essential imports.
 import { describe, expect, it } from "vitest";
@@ -9,7 +9,7 @@ import { describe, expect, it } from "vitest";
 import { type StudentOrg, StudentOrgSchema } from "@src/schemas/StudentOrg";
 
 // Testing module imports.
-import { getStudentOrgs } from "@src/utils/getStudentOrgs";
+import { getStudentOrgs } from "@src/studentOrgs/getStudentOrgs";
 
 // -----------------------------------------------------------------------------
 // Test suite for the getStudentOrgs utility function.

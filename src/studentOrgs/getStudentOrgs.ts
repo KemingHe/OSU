@@ -1,4 +1,4 @@
-// ./src/utils/getStudentOrgs.ts
+// ./src/studentOrgs/getStudentOrgs.ts
 //
 // Utility functions to retrieve student organization data.
 
