@@ -13,4 +13,4 @@ export * from "@src/schemas/UndergradMajor";
 export * from "@src/undergradMajors/getUndergradMajors";
 
 export * from "@src/schemas/ResearchPosting";
-// export * from "@src/researchPostings/getResearchPostings";
+export * from "@src/researchPostings/getResearchPostingsAsync";

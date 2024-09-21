@@ -47,4 +47,8 @@ describe("The OSU package entrypoint", () => {
   it("exports the ResearchPostingSchema ZodSchema", () => {
     expect(entrypoint).toHaveProperty("ResearchPostingSchema");
   });
+
+  it("exports the getResearchPostingsAsync utility function", () => {
+    expect(entrypoint).toHaveProperty("getResearchPostingsAsync");
+  });
 });
