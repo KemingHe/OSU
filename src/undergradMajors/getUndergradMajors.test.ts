@@ -11,7 +11,7 @@ import {
   UndergradMajorSchema,
 } from "@src/schemas/UndergradMajor";
 
-// Testing module imports.
+// Testing target import.
 import { getUndergradMajors } from "@src/undergradMajors/getUndergradMajors";
 
 // -----------------------------------------------------------------------------

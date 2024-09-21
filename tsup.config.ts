@@ -21,7 +21,7 @@ export default defineConfig(
 
     entry    : ["src/index.ts"],  // Source entrypoint.
     format   : ["cjs", "esm"],    // Output formats: CommonJS and ESM.
-    target   : "node14",          // Max backewards compatibility.
+    target   : "node18",          // Max backewards compatibility.
     outDir   : "dist",            // Output directory.
 
     dts      : true,  // Generate declaration files.

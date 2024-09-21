@@ -26,8 +26,8 @@
   <span>&nbsp;</span>
   <a href="https://nodejs.org/en" >
     <img
-      src="https://img.shields.io/badge/Supports-node14+-blue"
-      alt="supports node14+ (link to nodejs.org)"
+      src="https://img.shields.io/badge/Supports-node18+-blue"
+      alt="supports node18+ (link to nodejs.org)"
     />
   </a>
   <span>&nbsp;</span>
@@ -42,6 +42,8 @@
 
 > [!IMPORTANT]
 >
+> **Now requires Node 18 and up!** Please upgrade your node version.
+>
 > **Versions 1.1.0 and below are DEPRECATED!** Please upgrade to the latest version.
 
 > [!NOTE]
@@ -53,7 +55,7 @@
 
 ## :gear: Installation
 
-Requires [Node.js](https://nodejs.org/en/download/package-manager) >= **14**
+Requires [Node.js](https://nodejs.org/en/download/package-manager) >= **18**
 
 ```bash
 # Using npm:
@@ -100,7 +102,7 @@ OSU_DOT_EDU_EMAIL_PATTERN.test("buckeye.1@osu.edu");            // true
 BUCKEYEMAIL_PATTERN.test("buckeyemail.1@buckeyemail.osu.edu");  // true
 ```
 
-### Accessing Undergrad Majors Data
+### Accessing All Undergrad Majors
 
 ```typescript
 import { getUndergradMajors, type UndergradMajor } from "@keminghe/osu";
@@ -109,13 +111,29 @@ const majors: UndergradMajor[] = getUndergradMajors();
 console.log(majors);
 ```
 
-### Accessing Student Organization Data
+### Accessing All Student Organizations
 
 ```typescript
 import { getStudentOrgs, type StudentOrg } from "@keminghe/osu";
 
 const orgs: StudentOrg[] = getStudentOrgs();
 console.log(orgs);
+```
+
+## Accessing All Undergrad Research Postings
+
+```typescript
+import { getResearchPostingsAsync } from "@keminghe/osu";
+
+getResearchPostingsAsync()
+  .then((researchPostings) => {
+    console.log(researchPostings);
+  })
+  .catch((error) => {
+    console.error(error);
+  });
+
+// Or use with async/await.
 ```
 
 <details>

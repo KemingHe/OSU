@@ -8,7 +8,7 @@ import { describe, expect, it } from "vitest";
 // Local constant and utility imports.
 import { type StudentOrg, StudentOrgSchema } from "@src/schemas/StudentOrg";
 
-// Testing module imports.
+// Testing target import.
 import { getStudentOrgs } from "@src/studentOrgs/getStudentOrgs";
 
 // -----------------------------------------------------------------------------
