@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.1.0](https://github.com/KemingHe/OSU/compare/v3.0.0...v3.1.0) (2024-09-21)
+
+
+### Features
+
+* **src/index.ts:** added export of the research posting async accessor module ([e249410](https://github.com/KemingHe/OSU/commit/e24941093cfa1d79b03ad805326469d1007ca495))
+
 ## [3.0.0](https://github.com/KemingHe/OSU/compare/v2.0.2...v3.0.0) (2024-09-21)
 
 
