@@ -19,10 +19,15 @@ export default defineConfig(
   {
     // Core. -------------------------------------------------------------------
 
-    entry    : ["src/index.ts"],  // Source entrypoint.
-    format   : ["cjs", "esm"],    // Output formats: CommonJS and ESM.
-    target   : "node18",          // Max backewards compatibility.
-    outDir   : "dist",            // Output directory.
+    // Source entrypoint, separated for better tree-shaking.
+    entry: [
+      "src/index.ts",
+      "src/index.async.ts",
+    ],
+
+    format: ["cjs", "esm"],   // Output formats: CommonJS and ESM.
+    target: "es2017",         // Max browser and node (12+) compatibility.
+    outDir: "dist",           // Output directory.
 
     dts      : true,  // Generate declaration files.
     sourcemap: true,  // Generate source maps, allow reverting to original code.

@@ -1,12 +1,13 @@
 // ./src/index.test.ts
 //
-// Integration test for the OSU package entrypoint.
+// Integration test for the OSU package entrypoints.
 
 // Vitest essential imports.
 import { describe, expect, it } from "vitest";
 
-// Testing module imports.
+// Testing target imports.
 import * as entrypoint from "@src/index";
+import * as asyncEntrypoint from "@src/index.async";
 
 // -----------------------------------------------------------------------------
 // Entrypoint integration test suite.
@@ -49,6 +50,6 @@ describe("The OSU package entrypoint", () => {
   });
 
   it("exports the getResearchPostingsAsync utility function", () => {
-    expect(entrypoint).toHaveProperty("getResearchPostingsAsync");
+    expect(asyncEntrypoint).toHaveProperty("getResearchPostingsAsync");
   });
 });

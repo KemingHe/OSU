@@ -26,8 +26,8 @@
   <span>&nbsp;</span>
   <a href="https://nodejs.org/en" >
     <img
-      src="https://img.shields.io/badge/Supports-node18+-blue"
-      alt="supports node18+ (link to nodejs.org)"
+      src="https://img.shields.io/badge/Supports-node 8.1+-blue"
+      alt="supports node8.1+ (link to nodejs.org)"
     />
   </a>
   <span>&nbsp;</span>
@@ -42,20 +42,20 @@
 
 > [!IMPORTANT]
 >
-> **Now requires Node 18 and up!** Please upgrade your node version.
+> **Async** accessors depend on [`jsdom`](https://github.com/jsdom/jsdom) and are `node`-only. For example: `import { getResearchPostingsAsync } from "@keminghe/osu/async";`
 >
-> **Versions 1.1.0 and below are DEPRECATED!** Please upgrade to the latest version.
+> Use import from the **synchronous** `@keminghe/osu` if you are working in a browswer environment.
 
 > [!NOTE]
 >
-> Build by students, for students, with :heart:. **NOT** affiliated nor endorsed by official OSU.
+> Build by students, for students, with :heart:. **NOT** affiliated by *official* OSU.
 >
-> * Publicly-available data about OSU undergrad majors [here](https://undergrad.osu.edu/majors-and-academics/majors).
-> * Publicly-available data about OSU student organizations [here](https://activities.osu.edu/involvement/student_organizations).
+> * Publicly-available *official* data about OSU undergrad majors [here](https://undergrad.osu.edu/majors-and-academics/majors).
+> * Publicly-available *official* data about OSU student orgs [here](https://activities.osu.edu/involvement/student_organizations).
 
 ## :gear: Installation
 
-Requires [Node.js](https://nodejs.org/en/download/package-manager) >= **18**
+Requires [Node.js](https://nodejs.org/en/download/package-manager) >= **8.1.0** (es2017)
 
 ```bash
 # Using npm:
@@ -105,28 +105,42 @@ BUCKEYEMAIL_PATTERN.test("buckeyemail.1@buckeyemail.osu.edu");  // true
 ### Accessing All Undergrad Majors
 
 ```typescript
-import { getUndergradMajors, type UndergradMajor } from "@keminghe/osu";
+import { 
+  getUndergradMajors, 
+  type UndergradMajor,
+  UndergradMajorSchema,
+} from "@keminghe/osu";
 
 const majors: UndergradMajor[] = getUndergradMajors();
+UndergradMajorSchema.array().parse(majors);
 console.log(majors);
 ```
 
 ### Accessing All Student Organizations
 
 ```typescript
-import { getStudentOrgs, type StudentOrg } from "@keminghe/osu";
+import { 
+  getStudentOrgs,
+  type StudentOrg,
+  StudentOrgSchema,
+} from "@keminghe/osu";
 
 const orgs: StudentOrg[] = getStudentOrgs();
+StudentOrgSchema.array().parse(orgs);
 console.log(orgs);
 ```
 
-### Accessing All Undergrad Research Postings
+### Accessing All Undergrad Research Postings (Async!)
 
 ```typescript
-import { getResearchPostingsAsync } from "@keminghe/osu";
+import { ResearchPostingSchema, type ResearchPosting } from "@keminghe/osu";
+
+// IMPORTANT: note the different async import path.
+import { getResearchPostingsAsync } from "@keminghe/osu/async";
 
 getResearchPostingsAsync()
   .then((researchPostings) => {
+    ResearchPostingSchema.array().parse(researchPostings);
     console.log(researchPostings);
   })
   .catch((error) => {

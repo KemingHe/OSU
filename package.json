@@ -1,6 +1,6 @@
 {
   "name": "@keminghe/osu",
-  "version": "3.1.1",
+  "version": "4.0.0",
   "description": "Unofficial, publicly available data about The Ohio State University.",
   "keywords": [
     "data",
@@ -15,7 +15,25 @@
   ],
   "main": "dist/index.js",
   "module": "dist/index.mjs",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    },
+    "./async": {
+      "import": "./dist/index.async.mjs",
+      "require": "./dist/index.async.js"
+    }
+  },
   "types": "dist/index.d.ts",
+  "typesVersions": {
+    "*": {
+      "async": [
+        "./dist/index.async.d.ts"
+      ]
+    }
+  },
+  "sideEffects": false,
   "files": [
     "dist",
     "README.md",
@@ -50,8 +68,9 @@
     "build": "tsup",
     "postbuild": "echo 'Build complete: src/ -> dist/'"
   },
+  "packageManager": "pnpm@9.11.0+sha512.0a203ffaed5a3f63242cd064c8fb5892366c103e328079318f78062f24ea8c9d50bc6a47aa3567cabefd824d170e78fa2745ed1f16b132e16436146b7688f19b",
   "dependencies": {
-    "jsdom": "^25.0.0",
+    "jsdom": "^25.0.1",
     "zod": "^3.23.8"
   },
   "devDependencies": {
@@ -76,7 +95,7 @@
     "vitest": "^2.1.1"
   },
   "engines": {
-    "node": ">=14"
+    "node": ">=8.10.0"
   },
   "os": [
     "linux",
@@ -86,6 +105,5 @@
   "cpu": [
     "x64",
     "arm64"
-  ],
-  "packageManager": "pnpm@9.11.0+sha512.0a203ffaed5a3f63242cd064c8fb5892366c103e328079318f78062f24ea8c9d50bc6a47aa3567cabefd824d170e78fa2745ed1f16b132e16436146b7688f19b"
+  ]
 }

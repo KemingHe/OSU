@@ -1,6 +1,6 @@
 // ./src/index.ts
 //
-// OSU package entrypoint, for exporting all and utilities.
+// OSU package entrypoint, specifically for browser-node agnostic utilities.
 
 // OSU name-dot-number and email utility exports
 export * from "@src/validators/validators";
@@ -13,4 +13,3 @@ export * from "@src/schemas/UndergradMajor";
 export * from "@src/undergradMajors/getUndergradMajors";
 
 export * from "@src/schemas/ResearchPosting";
-export * from "@src/researchPostings/getResearchPostingsAsync";

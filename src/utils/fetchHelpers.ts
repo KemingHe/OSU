@@ -2,6 +2,9 @@
 //
 // Helper functions for fetching and querying data.
 
+// Local constant import.
+import UserAgents from "@src/constants/userAgents";
+
 // -----------------------------------------------------------------------------
 export function getTextContentFromElement(
   element: Element,
@@ -126,4 +129,17 @@ export async function randomDelay({
   // Generate a random delay between min and max milliseconds.
   const delay: number = Math.floor(Math.random() * (max - min + 1) + min);
   return new Promise((resolve) => setTimeout(resolve, delay));
+}
+
+// -----------------------------------------------------------------------------
+export function randomUserAgent(): string {
+  const randomAgent: string | undefined =
+    UserAgents[Math.floor(Math.random() * UserAgents.length)];
+
+  // randomeAgent is always defined, but must be checked for typescript.
+  /* v8 ignore next 3 */
+  if (!randomAgent) {
+    throw new Error("Failed to generate random user agent.");
+  }
+  return randomAgent;
 }
