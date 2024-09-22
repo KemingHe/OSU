@@ -5,12 +5,13 @@
 // jsdom essential imports.
 import { JSDOM } from "jsdom";
 
-import type { ResearchPosting } from "@src/schemas/ResearchPosting";
 // Local type and util imports.
+import type { ResearchPosting } from "@src/schemas/ResearchPosting";
 import {
   getAttributeFromSelector,
   getTextContentFromElement,
   getTextContentFromSelector,
+  randomUserAgent,
 } from "@src/utils/fetchHelpers";
 
 /**
@@ -75,8 +76,7 @@ export async function fetchUndergradResearchPostingsOnPageNum(
         "Sec-Fetch-User": "?1",
         "Sec-Gpc": "1",
         "Upgrade-Insecure-Requests": "1",
-        "User-Agent":
-          "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+        "User-Agent": randomUserAgent(),
       },
       cache: "no-store",
     });
