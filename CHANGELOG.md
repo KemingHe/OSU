@@ -1,5 +1,17 @@
 # Changelog
 
+## [4.0.0](https://github.com/KemingHe/OSU/compare/v3.1.1...v4.0.0) (2024-09-22)
+
+
+### ⚠ BREAKING CHANGES
+
+* **package.json:** due to the sync/async import (bundling) separation, all previously defined import
+will work as normal whilst async must be imported through @keminghe/osu/async
+
+### Bug Fixes
+
+* **package.json:** separated synd and async exports ([3ffb464](https://github.com/KemingHe/OSU/commit/3ffb464c36b6f69fdd2ef8967d2769073c63a681))
+
 ## [3.1.1](https://github.com/KemingHe/OSU/compare/v3.1.0...v3.1.1) (2024-09-21)
 
 ## [3.1.0](https://github.com/KemingHe/OSU/compare/v3.0.0...v3.1.0) (2024-09-21)
