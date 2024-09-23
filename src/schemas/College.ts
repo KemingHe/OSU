@@ -4,14 +4,14 @@
 // plus corresponding native TypeScript tuple definition.
 
 // Zod essential imports.
-import { type ZodSchema, z } from "zod";
+import { z, type ZodSchema } from "zod";
 
 export const CollegeTuple = [
   "Architecture",
   "Arts and Sciences",
   "Business",
   "Dental Hygiene",
-  "Denistry",
+  "Dentistry",
   "Education and Human Ecology",
   "Engineering",
   "Environment and Natural Resources",
@@ -28,5 +28,5 @@ export const CollegeTuple = [
   "University Exploration",
 ] as const;
 
-export const CollegeSchema: ZodSchema = z.enum(CollegeTuple);
+export const CollegeSchema:ZodSchema = z.enum(CollegeTuple);
 export type College = z.infer<typeof CollegeSchema>;

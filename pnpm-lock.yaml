@@ -34,7 +34,7 @@ importers:
         specifier: ^22.5.5
         version: 22.5.5
       '@vitest/coverage-v8':
-        specifier: ^2.1.1
+        specifier: 2.1.1
         version: 2.1.1(vitest@2.1.1(@types/node@22.5.5)(jsdom@25.0.1))
       commitizen:
         specifier: ^4.3.0

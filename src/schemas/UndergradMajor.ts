@@ -3,7 +3,7 @@
 // UndergradMajor ZodSchema and type definition.
 
 // Zod essential imports.
-import { type ZodSchema, z } from "zod";
+import { z, type ZodSchema } from "zod";
 
 // Local ZodSchema imports.
 import { CampusSchema } from "@src/schemas/Campus";
@@ -27,7 +27,5 @@ export const UndergradMajorSchema: ZodSchema = z.object({
  * @property {UndergradDegree[] | null} degrees - Array of undergraduate degrees associated with the major, represented by a non-empty array of `UndergradDegree` objects, or null if not applicable or missing data.
  * @property {Campus[] | null} campuses - Campuses where the major is offered, represented by a non-empty array of `Campus` objects, or null if not applicable or missing data.
  * @property {College | null} college - College where the major belongs, represented by a `College` object, or null if not applicable or missing data.
- *
- * @see {@link UndergradMajorInterface} for the equivalent native TypeScript interface.
  */
 export type UndergradMajor = z.infer<typeof UndergradMajorSchema>;

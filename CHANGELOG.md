@@ -1,5 +1,13 @@
 # Changelog
 
+## [4.0.1](https://github.com/KemingHe/OSU/compare/v4.0.0...v4.0.1) (2024-09-23)
+
+
+### Bug Fixes
+
+* **schemas/college.ts:** fixed typo in college tuple, dentistry is now correctly spelled ([9b8e7ad](https://github.com/KemingHe/OSU/commit/9b8e7ad7a8482492cf57f99e5e1ad0e9505ec172))
+* **vitest.config.ts:** reset coverage report on failure to default (false) ([e0700a2](https://github.com/KemingHe/OSU/commit/e0700a24d04ab60a299616c2ac24a2557602b823))
+
 ## [4.0.0](https://github.com/KemingHe/OSU/compare/v3.1.1...v4.0.0) (2024-09-22)
 
 

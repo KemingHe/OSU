@@ -32,7 +32,6 @@ export default defineConfig({
     coverage: {
       // Specify reporing coverage for the project src directory.
       include: ["src"],
-      reportOnFailure: true,
 
       // Files to be ignored for coverage.
       exclude: [

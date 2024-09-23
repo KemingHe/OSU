@@ -4,7 +4,7 @@
 // plus corresponding native TypeScript tuple definition.
 
 // Zod essential imports.
-import { type ZodSchema, z } from "zod";
+import { z, type ZodSchema } from "zod";
 
 export const UndergradDegreeTuple = [
   "AA (Associate of Arts)",
