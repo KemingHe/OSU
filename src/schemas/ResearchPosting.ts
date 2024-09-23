@@ -5,7 +5,7 @@
 // Zod essential imports.
 import { z, type ZodSchema } from "zod";
 
-export const ResearchPostingSchema: ZodSchema = z.object({
+export const ResearchPostingSchema:ZodSchema = z.object({
   title              : z.string().min(1),
   link               : z.string().url(),
   applicationDeadline: z.nullable(z.string().min(1)),

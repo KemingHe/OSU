@@ -15,7 +15,7 @@ const validCollegeStrings: string[] = [
   "Arts and Sciences",
   "Business",
   "Dental Hygiene",
-  "Denistry",
+  "Dentistry",
   "Education and Human Ecology",
   "Engineering",
   "Environment and Natural Resources",

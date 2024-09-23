@@ -4,7 +4,7 @@
 // plus corresponding native TypeScript tuple definition.
 
 // Zod essential imports.
-import { type ZodSchema, z } from "zod";
+import { z, type ZodSchema } from "zod";
 
 export const CampusTuple = [
   "Columbus",
@@ -15,5 +15,5 @@ export const CampusTuple = [
   "Wooster",
 ] as const;
 
-export const CampusSchema: ZodSchema = z.enum(CampusTuple);
+export const CampusSchema:ZodSchema = z.enum(CampusTuple);
 export type Campus = z.infer<typeof CampusSchema>;
