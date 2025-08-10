@@ -1,4 +1,11 @@
-# @keminghe/osu
+# ⚠️ [Archived] ⚠️ @keminghe/osu
+
+> [!WARNING]
+> **This repository is archived and no longer maintained.**
+>
+> - **Archived**: 2025-08-10 by [@KemingHe](https://github.com/KemingHe)
+> - **Archive reason**: Low/no demand from the Ohio State community to use this pure data package
+> - **Inquries and corrections**: email [keminghe.career@gmail.com](mailto:keminghe.career@gmail.com)
 
 <div align=center>
   <img
